@@ -1,0 +1,53 @@
+window {
+    margin: 0px;
+    border: 2px solid #8bd5ca; /* Teal border */
+    background-color: #24273a; /* Macchiato Base */
+    border-radius: 12px;
+    font-family: "BlexMono Nerd Font", monospace;
+    font-size: 13px;
+}
+
+#input {
+    margin: 10px;
+    border: none;
+    color: #cad3f5;
+    background-color: #363a4f; /* Surface 0 */
+    border-radius: 8px;
+    padding: 8px;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: #24273a;
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: #24273a;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    color: #cad3f5; /* Text color */
+}
+
+#entry {
+    padding: 2px;
+    border-radius: 8px;
+}
+
+#entry:selected {
+    background-color: #8bd5ca; /* Teal highlight */
+}
+
+#entry:selected #text {
+    color: #181926; /* Dark text on highlight */
+    font-weight: bold;
+}

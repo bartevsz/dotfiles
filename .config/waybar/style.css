@@ -1,0 +1,78 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "Syncopate", "Iceland", "BlexMono Nerd Font";
+    font-weight: 400;
+    font-size: 17px; /* Twoja oryginalna baza */
+/*    text-shadow: 0 0 4px rgba(139, 213, 202, 0.5);*/
+}
+
+window#waybar {
+    background: rgba(36, 39, 58, 0.8);
+    color: #8bd5ca;
+    border-bottom: 2px solid #8bd5ca;
+}
+
+#workspaces button { padding: 0 5px; color: #8bd5ca; }
+#workspaces button.active {
+    color: #fffff6;
+    background-color: #363a4f;
+    /*text-shadow: 0 0 6px rgba(255, 255, 246, 0.6);*/
+}
+
+/* --- PRAWA STRONA (IKONY APLIKACJI I SYSTEMU) --- */
+#network, #bluetooth, #pulseaudio, #battery,
+#custom-telegram, #custom-discord, #custom-steam, 
+#custom-bitwarden, #custom-todoist, #custom-heroic {
+    padding: 0 8px;   
+    margin: 0 1px;
+    color: #8bd5ca;
+}
+
+#custom-telegram, #custom-discord, #custom-steam, 
+#custom-bitwarden, #custom-todoist, #custom-heroic {
+    font-size: 19px; /* Przywrócone Twoje 19px */
+}
+
+#battery { 
+    color: #a6da95; 
+    /*text-shadow: 0 0 5px rgba(166, 218, 149, 0.6);*/
+} 
+
+#network, #bluetooth { margin: 0 4px; }
+
+/* --- ŚRODEK: DATA (LEWA STRONA ZEGARA) --- */
+#clock.date {
+    /* Zmniejszamy przerwę między datą a zegarem */
+    padding-right: 12px; 
+    padding-left: 0;
+}
+
+/* --- ZEGAR CASIO (CENTRUM) --- */
+#clock.time {
+    font-family: "VT323";
+    font-size: 30px; 
+    color: #8bd5ca;
+    /* Minimalny padding, zegar jest osią obrotu */
+    padding: 0 5px; 
+    margin-top: -2px;
+    text-shadow: 0 0 8px rgba(139, 213, 202, 0.7);
+}
+
+/* --- IKONA HEALTH (TERAZ PRZYLEPIONA DO ZEGARA) --- */
+#custom-health {
+    color: #8bd5ca;
+    font-size: 28px; 
+    /* 2px z lewej, by "dotykać" zegara; 18px z prawej, by odsunąć dzień tygodnia */
+    padding: 0 18px 0 2px; 
+    margin-top: -4px; 
+    text-shadow: 0 0 8px rgba(139, 213, 202, 0.7);
+}
+
+/* --- ŚRODEK: DZIEŃ TYGODNIA (PRAWY ODWAŻNIK) --- */
+#clock.weekday {
+    padding-left: 0;
+    /* KLUCZ: Duży prawy padding (odważnik), który zrównoważy długość daty 
+       i wypchnie zegar na środek ekranu. Dostosuj tę wartość (np. 40-60px) */
+    padding-right: 55px; 
+}

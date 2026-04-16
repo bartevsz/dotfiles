@@ -1,0 +1,125 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 38, /* Zmniejszone o 15% z 44px */
+    "spacing": 4, 
+
+    "modules-left": [
+      "pulseaudio",
+        "custom/music"
+    ],
+    "modules-center": [
+        "clock#date",
+        "clock#time",
+        "custom/health",
+        "clock#weekday"
+
+    ],
+    "modules-right": [
+        "custom/telegram",
+        "custom/discord",
+        "custom/steam",
+        "custom/bitwarden",
+        "custom/todoist",
+        "custom/heroic",
+        "network",
+        "bluetooth",
+        "battery"
+    ],
+
+    "custom/music": {
+        "exec": "~/.config/waybar/scroll_music.sh",
+        "format": "{}",
+        "on-click": "playerctl play-pause",
+        "on-click-right": "playerctl next",
+        "on-click-middle": "playerctl previous",
+        "tooltip": false
+    },
+
+    // --- ŚRODEK ---
+    "clock#date": {
+        "format": "<span color='#8bd5ca' size='larger'>  {:%d %B %Y}</span>",
+        "interval": 60
+    },
+    "clock#time": {
+        "format": "<span size='larger' rise='3000'>{:%H:%M:%S}</span>",
+        "interval": 1
+    },
+    "clock#weekday": {
+        "format": "<span color='#8bd5ca' size='larger'>  {:%A}</span>",
+        "interval": 60
+    },
+
+    // --- PRAWA STRONA ---
+    "custom/health": {
+        "exec": "~/.config/waybar/health.sh",
+        "return-type": "json",
+        "interval": 5,
+        "format": "{}", // Rozmiar narzucony w CSS (34px) idealnie wypełni 38px paska
+        "on-click": "~/.config/waybar/health.sh --popup"
+    },
+    "pulseaudio": {
+        "format": "{icon}  <b>{volume}%</b>",
+        "format-muted": "🔇 Mute",
+        "format-icons": {
+            "default": ["", "", ""]
+        },
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+    },
+    "battery": {
+        "states": { "warning": 30, "critical": 15 },
+        "format": "🗲 <b>{capacity}%</b> (unplugged)",
+        "format-charging": "🗲 <b>{capacity}%</b> (plugged)",
+        "format-plugged": "🗲 <b>{capacity}%</b> (plugged)"
+    },
+    "network": {
+        "format-wifi": "",
+        "format-disconnected": "",
+        "tooltip-format": "{essid} ({signalStrength}%)",
+        "on-click": "nm-connection-editor"
+    },
+"bluetooth": {
+        "format": "",
+        "format-connected": "",
+        "tooltip-format": "Brak połączenia",
+        "tooltip-format-connected": "{device_alias}",
+        "tooltip-format-connected-battery": "{device_alias}\nBateria: {device_battery_percentage}%",
+        "on-click": "blueman-manager"
+    },
+    "custom/telegram": {
+        "exec": "pgrep -fi telegram > /dev/null && echo '' || echo ''",
+        "interval": 5,
+        "on-click": "flatpak run org.telegram.desktop",
+        "tooltip": false
+    },
+    "custom/discord": {
+        "exec": "pgrep -fi discord > /dev/null && echo '' || echo ''",
+        "interval": 5,
+        "on-click": "flatpak run com.discordapp.Discord",
+        "tooltip": false
+    },
+    "custom/steam": {
+        "exec": "pgrep -x steam > /dev/null && echo '' || echo ''",
+        "interval": 5,
+        "on-click": "steam",
+        "tooltip": false
+    },
+    "custom/bitwarden": {
+        "exec": "pgrep -fi bitwarden > /dev/null && echo '' || echo ''",
+        "interval": 5,
+        "on-click": "bitwarden",
+        "tooltip": false
+    },
+    "custom/todoist": {
+        "exec": "pgrep -fi todoist > /dev/null && echo '' || echo ''",
+        "interval": 5,
+        "on-click": "flatpak run com.todoist.Todoist",
+        "tooltip": false
+    },
+    "custom/heroic": {
+        "exec": "pgrep -fi heroic > /dev/null && echo '' || echo ''",
+        "interval": 5,
+        "on-click": "flatpak run com.heroicgameslauncher.hgl",
+        "tooltip": false
+    }
+}

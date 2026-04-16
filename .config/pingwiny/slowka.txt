@@ -1,0 +1,3726 @@
+adresa - adres
+ahoj - cześć
+akcia - promocja
+ako - jak
+akostný - jakościowy
+aktuálny - aktualny
+Akuzatív - Koho/čo (vidím)?: [M] kabát/kabáty, [N] tričko/tričká, [F] blúzk-u/-y
+alkohol - alkohol
+ambiciózny - ambitny
+ambulancia - przychodnia
+analýza - analiza
+angličtina - język angielski
+animovaný - animowany
+anketa - ankieta
+áno - tak
+anonymný - anonimowy
+anténa - antena
+aparát - aparat
+apatia - apatia
+aplaudovať - oklaskiwać
+aplikovať - aplikować
+apoštol - apostoł
+apríl - kwiecień
+aprílový - kwietniowy
+arabský - arabski
+architektúra - architektura
+archív - archiwum
+areál - areał
+argument - argument
+arogantný - arogancki
+aróma - aromat
+arzén - arsen
+asfalt - asfalt
+asi - chyba / około
+asistent - asystent
+asociácia - asocjacja
+aspekt - aspekt
+astma - astma
+astronóm - astronom
+ateista - ateista
+ateliér - atelier
+atentát - atentat
+atlas - atlas
+atlét - atleta
+atmosféra - atmosfera
+atóm - atom
+atrakcia - atrakcja
+atribút - atrybut
+august - sierpień
+aukcia - aukcja
+auto - samochód
+autobus - autobus
+autogram - autogram
+automat - automat
+autor - autor
+autorita - autorytet
+avízo - awizo
+axiomatický - aksjomatyczny
+azyl - azyl
+bábika - lalka
+bača - baca
+badateľ - badacz
+bagateľizovať - bagatelizować
+bager - koparka
+bahno - błoto
+bájka - bajka
+bakalár - licencjat
+baktéria - bakteria
+balada - balada
+balansovať - balansować
+balenie - opakowanie
+balet - balet
+balič - pakowacz
+balík - paczka
+balkón - balkon
+balzam - balsam
+bambus - bambus
+baňa - kopalnia
+banán - banan
+banda - banda
+baník - górnik
+banka - bank
+bankomat - bankomat
+bar - bar
+baran - baran
+barel - baryłka
+bariéra - bariera
+barometer - barometr
+barón - baron
+bas - bas
+basa - więzienie
+básnik - poeta
+bašta - baszta
+batéria - bateria
+batoh - plecak
+batožina - bagaż
+baviť - bawić
+bazár - bazar
+bazén - basen
+bazilika - bazylika
+bedňa - skrzynia
+belasý - jasnoniebieski
+beloch - biały człowiek
+benzín - benzyna
+benzínka - stacja paliw
+berla - kula (inwalidzka)
+beštia - bestia
+betlehem - betlejem
+betón - beton
+bežať - biegać
+bezchybný - bezbłędny
+bezec - biegacz
+bežec - biegacz
+bezpečnosť - bezpieczeństwo
+bezpečný - bezpieczny
+bezradný - bezradny
+beztrestný - bezkarny
+bič - bicz
+bicykel - rower
+bieda - bieda
+bieliť - bielić
+biely - biały
+bilancia - bilans
+biliard - bilard
+bilión - bilion
+birmovka - bierzmowanie
+bitka - bójka
+blahoželať - gratulovať / gratulować
+blatník - błotnik
+blatý - błotnisty
+blázon - szaleniec
+blecha - pchła
+bledý - blady
+blesk - błyskawica
+blízko - blisko
+bližší - bliższy
+bloček - paragon
+blokovať - blokować
+blond - blond
+blud - błąd / urojenie
+blúdiť - błądzić
+blúzka - bluzka
+blúznenie - majaczenie
+bobkový - laurowy
+bobor - bóbr
+bod - punkt
+bodka - kropka
+bodnutie - ukąszenie
+boh - bóg
+bohatstvo - bogactwo
+bohatý - bogaty
+bohyňa - bogini
+bojazlivý - bojaźliwy
+bojovať - walczyć
+bojovník - wojownik
+bok - bok
+bolesť hlavy - ból głowy
+bolestný - bolesny
+bolieť - boleć
+bomba - bomba
+bonbón - cukierek
+bonus - bonus
+bordel - bałagan
+borievka - jałowiec
+borovica - sosna
+boršč - barszcz
+bosý - boso / bosy
+bota - but
+bozk - pocałunek
+bozkávať - całować
+brada - broda (część twarzy) / broda
+bradatý - brodaty
+bradlo - skała / poręcz
+brak - tandeta
+brána - brama
+bránenie - bronienie
+brániť - bronić
+brat - brat
+bratranec - kuzyn
+bratstvo - braterstwo
+bravčový - wieprzowy
+breh - brzeg
+bremeno - brzemię
+brest - wiąz
+breza - brzoza
+bridlica - łupek
+brigáda - praca dorywcza
+britva - brzytwa
+brko - pióro (do pisania)
+brloh - legowisko
+brnenie - zbroja
+brod - bród
+brošňa - broszka
+brožúra - broszura
+brucho - brzuch
+brvno - kłoda
+brzda - hamulec
+brzdenie - hamowanie
+bubon - bęben
+bučať - ryczeć
+budík - budzik
+budova - budynek
+budovateľ - budowniczy
+budúci - przyszły
+budúcnosť - przyszłość
+bufet - bufet
+bujný - bujny
+buk - buk
+buldog - buldog
+bulvár - bulwar
+bunda - kurtka
+burina - chwast
+búrka - burza
+burza - giełda
+busta - popiersie
+býk - byk
+bylina - roślina
+byt - mieszkanie
+bytovka - blok mieszkalny
+bývalý - były
+bývanie - mieszkanie (proces)
+bývať - mieszkać
+byvol - bawół
+bzunčať - bzyczeć
+čaj - herbata
+čakať - czekać
+cár - car
+často - często
+cech - cech
+ceduľa - tablica
+celina - ugór
+celistvosť - spójność
+celkom - całkiem
+celnica - urząd celny
+čelo - czoło
+celofán - celofan
+celoštátny - ogólnokrajowy
+celý - cały
+cement - cement
+cena - cena
+ceniť - cenić
+cent - cent
+center - centrum (sport)
+centimetre - centymetry
+centrálny - centralny
+centrum - centrum
+cenzúra - cenzura
+cera - dąb burgundzki
+ceremónia - ceremonia
+čerpadlo - pompa
+čerstvý - świeży
+certifikát - certyfikat
+ceruzka - ołówek
+červený - czerwony
+cesnak - czosnek
+cesnakový - czosnkowy
+cesta - droga / podróż
+cestár - drogowiec
+čestne - uczciwie
+cestovanie - podróżowanie
+cestovať - podróżovať / podróżować
+cestoviny - makaron
+cestovné - opłata za przejazd
+cez - przez
+chabý - słaby
+chalupa - chałupa
+chaos - chaos
+charakter - charakter
+chata - dom letniskowy
+chátrať - niszczeć
+chce - chce
+chcem - chcę
+chceme - chceme
+chceš - chcesz
+chcete - chcecie
+chcieť - chcieć
+chcú - chcú
+chechtot - chichot
+chémia - chemia
+chlad - chłód
+chladenie - chłodzenie
+chladivo - chłodziwo
+chladnička - lodówka
+chladný - chłodny
+chlap - chłop / facet
+chlapec - chłopiec
+chleb - chleb
+chlieb - chleb
+chlór - chlor
+chlp - włos / kłaczek
+chlpatý - owłosiony
+chmúra - chmura (ciemna)
+chochol - czub (ptaka)
+chodba - korytarz
+chodidlo - stopa
+chodiť - chodzić
+chodník - chodnik
+cholera - cholera
+choroba - choroba
+chorý - chory
+chór - chór
+chrám - świątynia
+chránenie - chronienie
+chrániť - chronić
+chrapot - chrapanie
+chrbát - plecy
+chrbtica - kręgosłup
+chren - chrzan
+chripka - grypa
+chróm - chrom
+chrómý - chromy
+chrup - uzębienie
+chrušč - chrabąszcz
+chudý - chudy
+chuligán - chuligan
+chuť - smak / apetyt
+chutný - smaczny
+chvíľa - chwila
+chvost - ogon
+chyba - błąd
+chýbať - brakować
+chybiť - chybić
+chýr - wieść
+chystať - przygotowywać
+chyža - izba
+čiapka - czapka
+čiara - linia
+cibuľa - cebula
+cieľ - cel
+cieľavedomý - ambitny
+čierno-biely - czarno-biały
+čierny - czarny
+cieva - naczynie krwionośne
+cifra - cyfra
+cigareta - papieros
+cikať - sikać
+cín - cyna
+cingať - dzwonić
+cinický - cyniczny
+cinkot - brzęk
+cintorín - cmentarz
+cip - róg / skraj
+cirkev - kościół (instytucja)
+cirkus - cyrk
+cisár - cesarz
+cisterna - cysterna
+čisto - czysto
+cit - uczucie
+citát - cytat
+čítať - czytać
+cítiť - czuć
+citlivý - wrażliwy
+citrón - cytryna
+civilný - cywilny
+čižmy - kozaki
+čmeľ - trzmiel
+čo - co
+Čo sa stalo? - Co się stało?
+čokoláda - czekolada
+čoskoro - wkrótce
+cudný - dziwny
+čudný - dziwny / osobliwy
+cudzí - obcy
+cudzinec - obcokrajowiec
+cukor - cukier
+cukráreň - cukiernia
+cvičenec - ćwiczący
+cvičenie - ćwiczenie
+cvičisko - poligon
+cvičiť - ćwiczyć
+cvik - ćwiczenie (ruch)
+cvok - świr
+cyklista - cyklista
+cyklus - cykl
+cylindere - cylinder
+cypruštek - cyprys
+czakať - czekać
+ďakujem - dziękuję
+ďaleko - daleko
+ďalekohľad - lornetka
+ďaleký - daleki
+daň - podatek
+dane - podatki
+dar - dar
+darca - dawca
+darček - prezent
+dariť sa - powodzić się
+darovať - darować
+ďasno - dziąsło
+Dátiv - Komu/čomu (dám)?: [M] kabát-u/-om, [N] tričk-u/-ám, [F] blúzk-e/-ám
+dátum - data
+dávka - dawka
+dávno - dawno
+dávny - dawny
+dážď - deszcz
+daždivý - deszczowy
+dáždnik - parasol
+dažďovka - dżdżownica
+dcéra - córka
+dcérsky - córki (przymiotnik)
+debatovať - debatować
+debna - skrzynia
+december - grudzień
+decentný - dyskretny
+dedič - dziedzic
+dedičstvo - dziedzictwo
+dedina - wieś
+dediť - dziedziczyć
+dedko - dziadek
+defekt - defekt
+definícia - definicja
+deformovať - deformować
+degradovať - degradować
+dej - akcja
+dejiny - historia
+dejisko - miejsce akcji
+dekan - dziekan
+deklarovať - deklarować
+dekorácia - dekoracja
+dekrét - dekret
+delegácia - delegacja
+delenie - dzielenie
+deleno - dzielone
+delfín - delfin
+delikátny - delikatny
+delostrelec - artylerzysta
+demisia - dymisja
+demokrat - demokrata
+démon - demon
+deň - dzień
+denne - dziennie
+denník - dziennik
+depresia - depresja
+deravý - dziurawy
+derniéra - premiera ostatnia
+des - lęk
+desať - dziesięć
+desatinný - dziesiętny
+desiata - drugie śniadanie
+desiaty - dziesiąty
+desiť - przerażać
+detail - detal
+detektív - detektyw
+deti - dzieci
+detstvo - dzieciństwo
+deväť - dziewięć
+deväťdesiat - dziewięćdziesiąt
+deväťdesiaty - dziewięćdziesiąty
+devätina - dziewiąta część
+devätnásť - dziewiętnaście
+deviaty - dziewiąty
+devíza - dewiza
+dezén - bieżnik
+dezert - deser
+diabol - diabeł
+diagnóza - diagnoza
+diagram - diagram
+dialekt - dialekt
+diaľka - odległość
+diaľnica - autostrada
+dialóg - dialog
+diamant - diament
+diéta - dieta
+dieťa - dziecko / potomek
+dievča - dziewczyna / panna
+difúzia - dyfuzja
+diktát - dyktando
+diktátor - dyktator
+dilema - dylemat
+diletant - dyletant
+dimenzia - wymiar
+dinosaure - dinozaur
+diplom - dyplom
+diplomat - dyplomata
+dirigent - dyrygent
+disciplína - dyscyplina
+diskusia - dyskusja
+displej - wyświetlacz
+distanc - dystans
+divadlo - teatr
+divák - widz
+diviť sa - dziwić się
+divoch - dzikus
+divoký - dziki
+divý - dziki
+dizajn - design
+dlaha - szyna
+dlaň - dłoń
+dlážba - bruk
+dlh - dług
+dlhý - długi
+dĺžeň - akcent długości
+dĺžka - długość
+dlžník - dłużnik
+dlžný - dłużny
+dnes - dzisiaj
+dnešný - dzisiejszy
+dno - dno
+dobiť - dobić
+dobre - dobrze
+dobré ráno - dzień dobry (rano)
+dobro - dobro
+dobrodruh - poszukiwacz przygód
+dobrota - dobroć
+dobrovoľný - dobrowolny
+dobrú noc - dobranoc
+dobrý - dobry / uprzejmy / właściwy
+dobrý deň - dzień dobry
+dobrý večer - dobry wieczór
+dobyť - zdobyć
+dočasný - tymczasowy
+docent - docent
+dôchodok - emerytura
+docieliť - osiągnąć
+dodávateľ - dostawca
+dodávka - furgonetka
+dohľad - nadzór
+dohliadať - nadzorować
+dohnat - dogonić
+dohoda - ugoda
+dohovor - rozmowa
+dojem - wrażenie
+dojiť - doić
+dôkaz - dowód
+doklad - dokument
+dokola - dookoła
+dokonalý - doskonały
+dokonca - nawet
+dokončiť - dokończyć
+dokorán - na oścież
+doktor - doktor
+doktrína - doktryna
+dokument - dokument
+dolár - dolar
+dole - w dół / na dole
+dôležitosť - ważność
+dôležitý - ważny
+dolína - dolina
+dolomity - dolomity
+dolovať - wydobywać
+dom - dom
+doma - w domu
+domáci - domowy
+doména - domena
+dominovať - dominować
+domnievať sa - przypuszczać
+domov - dom rodzinny
+doniesť - przynieść
+dopad - wpływ
+dopísat - dopisać
+doplatiť - dopłacić
+doplnok - dodatek
+doprava - transport
+dopraviť - przetransportować
+dopredu - do przodu
+dopyt - popyt
+dorasť - dorosnąć
+doraziť - dotrzeć
+dorobiť - dorobić
+doručiť - doręczyć
+dosadiť - osadzić
+dosah - zasięg
+dosiahnuť - osiągnąć
+doska - deska
+doslova - dosłownie
+dospelý - dorosły
+dosť - dość
+dostatočný - dostateczny
+dostávať - dostawać
+dostihy - wyścigi
+dostup - dostęp
+dosvedčiť - poświadczyć
+dotácia - dotacja
+dotiahnuť - dociągnąć
+dotyk - dotyk
+dotykár - ekran dotykowy
+dôvera - zaufanie
+dovidenia - do widzenia
+doviest - dowiedzieć
+doviesť - dowiedzieć
+dovnútra - do środka
+dovolenka - urlop
+dovoliť - pozwolić
+dovoz - import
+dozadu - do tyłu
+dozor - nadzór
+dozrieť - dojrzeć
+dozvedieť sa - dowiedzieć się
+dozvuk - echo / pogłos
+dráč - skrobaczka
+dráha - tor
+drahokam - kamień szlachetny
+drahý - drogi
+dráma - dramat
+dramaturg - dramaturg
+drásať - drapać
+drastický - drastyczny
+dravec - drapieżnik
+dravý - drapieżny
+dráždiť - drażnić
+dražiť - licytować
+dražoba - licytacja
+drevený - drewniany
+drevina - krzew / drzewo
+drevo - drewno
+drez - zlew
+drieť - harować
+drina - harówka
+drobné - drobne
+drobný - drobny
+droga - narkotyk
+drogéria - drogeria
+drôt - drut
+drozd - drozd
+droždie - drożdże
+drsný - szorstki
+druh - rodzaj / gatunek
+druhý - drugi
+družica - satelita
+družina - drużyna
+drvič - kruszarka
+drviť - kruszyć
+dryáčnik - szarlatan
+držať - posiadać / trzymać
+držiak - uchwyt
+drzý - bezczelny
+dub - dąb
+dubový - dębowy
+duo - duet
+dupať - tupać
+duplikát - duplikat
+duša - dusza
+duševný - duchowy
+dusík - azot
+dusiť - dusić
+dusno - duszno
+dušnosť - duszność
+dutina - jama / zatoka
+dutý - pusty w środku
+dužina - miąższ
+dva - dwa / dwójka
+dvadsať - dwadzieścia
+dvadsaťjeden - dwadzieścia jeden
+dvadsiaty - dwudziesty
+dvaja - dwaj
+dvakrát - dwa razy
+dvanásť - dwanaście
+dvanásty - dwunasty
+dvere - drzwi
+dvih - podnośnik
+dvíhať - podnosić
+dvor - podwórze
+dvoran - dworzanin
+dych - oddech
+dýchať - oddychać
+dychtivý - chciwy
+dyka - sztylet
+dym - dym
+dýň - dynia
+dynamika - dynamika
+dynamit - dynamit
+dynastia - dynastia
+dýza - dysza
+dzedzina - wieś
+dzekujeme - dziękujemy
+džem - dżem
+džentlmen - dżentelmen
+džez - jazz
+dzignuť - upaść
+džihád - dżihad
+dzin - dżins
+džínsový - dżinsowy
+džíp - jeep
+džob - fucha
+dzobnuť - dziobnąć
+džudo - judo
+džungľa - dżungla
+džús - sok
+echo - echo / pogłos
+edícia - edycja
+efekt - efekt
+efektívny - efektywny
+egoista - egoista
+egreš - agrest
+egyptský - egipski
+ekológ - ekolog
+ekológia - ekologia
+ekonóm - ekonomista
+ekran - ekran
+elegantný - elegancki
+električka - tramwaj
+elektrina - elektryczność
+elektrón - elektron
+elementárny - elementarny
+elipsa - elipsa
+elitár - elita
+elixír - eliksir
+emajl - emalia
+embargo - embargo
+emblém - emblemat
+embrio - embrion
+emigrácia - emigracja
+emisia - emisja
+emócia - emocja
+empíria - empiria
+encyklopédia - encyklopedia
+energia - energia
+enigma - enigma
+enzým - enzym
+epický - epicki
+epidémia - epidemia
+epigram - epigram
+epilóg - epilog
+epizóda - epizoda
+epocha - epoka
+epopeja - epopeja
+erár - skarb państwa
+erupcia - erupcja
+estetika - estetyka
+estráda - estrada
+etapa - etap
+etika - etyka
+etiketa - etykieta
+etnický - etniczny
+etológ - etolog
+eufória - euforia
+euro - euro
+európsky - europejski
+evakuácia - ewakuacja
+evidencia - ewidencja
+evolúcia - ewolucja
+exaktný - ścisły
+excelentný - wyśmienity
+excentrický - ekscentryczny
+exces - eksces
+exemplár - egzemplarz
+exhibícia - exhibicja
+exil - wygnanie
+existencia - egzystencja
+exkurzia - wycieczka
+expanzia - ekspansja
+expert - ekspert
+expirácia - wygaśnięcie
+explózia - eksplozja
+expozícia - ekspozycja
+expres - ekspres
+extáza - ekstaza
+externe - zewnętrznie
+extrém - ekstremum
+facka - policzek
+fajčiar - palacz
+fajčiť - palić
+fajka - fajka
+fajn - fajnie
+fakt - fakt
+faktor - czynnik
+faktúra - faktura
+fakulta - wydział
+falošný - fałszywy
+falzo - fałszerstwo
+fantázia - fantazja
+fanúšik - fan
+fara - plebania
+faraón - faraon
+farár - proboszcz
+farba - kolor / farba
+farbiť - farbować
+farebný - kolorowy
+farma - farma
+farmár - rolnik
+farnosť - parafia
+fasáda - fasada
+fáza - faza
+fazuľa - fasola
+február - luty
+federácia - federacja
+félix - feliks
+fén - suszarka do włosów
+fenomén - fenomen
+férový - uczciwy
+festival - festiwal
+fetiš - fetysz
+feudál - feudał
+fialový - fioletowy
+fičať - gnać
+figúra - figura
+fiktívny - fikcyjny
+filantrop - filantrop
+filé - filet
+filharmónia - filharmonia
+film - film
+filozof - filozof
+filter - filtr
+finále - finał
+financie - finanse
+finta - sztuczka
+fion - pion
+firma - firma
+fixný - stały
+fľak - plama
+flám - impreza (mocna)
+fľaša - butelka
+flauta - flet
+flexibilný - elastyczny
+fliačik - plamka
+flotila - flotylla
+flóra - flora
+fluór - fluor
+fond - fundusz
+fontána - fontanna
+forma - forma
+formácia - formacja
+formát - format
+formula - formuła
+fortieľ - kunszt
+fotel - fotel
+fotka - zdjęcie
+fotograf - fotograf
+fotón - foton
+foyer - foyer
+fóbia - fobia
+fólia - folia
+fórum - forum
+frajer - chłopak / cool facet
+frakcia - frakcja
+fráza - fraza
+frekvencia - frekwencja
+front - front
+fronta - kolejka
+frustrácia - frustracja
+fujara - fujara
+fúkať - dziać
+fukot - świst
+fungovať - działać
+funkcia - funkcja
+funkcionár - funkcjonariusz
+fúra - fura
+fúria - furia
+furnír - fornir
+fúzač - chrząszcz
+fúzy - wąsy
+fyzika - fizyka
+fyziológ - fizjolog
+gabo - gabo
+gagat - gagat
+galantný - galantny
+galaxia - galaktyka
+galéria - galeria
+galón - galon
+gama - gama
+gang - gang
+garancia - gwarancja
+garant - gwarant
+garáž - garaż
+garderóba - garderoba
+garna - garna
+gastronóm - gastronom
+gáz - gaza
+gazda - gospodarz
+gazela - gazela
+gejzír - gejzer
+generácia - generacja
+generál - generał
+genetika - genetyka
+Genitív - Koho/čoho (od): [M] kabát-a/-ov, [N] tričk-a/-ov, [F] blúzk-y/-ok
+génius - geniusz
+geológ - geolog
+geometria - geometria
+gesto - gest
+gestor - gestor
+ghetto - getto
+gilo - gilo
+gimnast - gimnastyk
+gips - gips
+gitara - gitara
+glanc - blask
+glazúra - glazura
+glosa - glosa
+glóbus - globus
+glukóza - glukoza
+gnóm - gnom
+golf - golf
+golier - kołnierzyk
+gombík - guzik
+gondola - gondola
+gorila - goryl
+gotika - gotyk
+gól - gol
+graf - graf
+grafik - grafik
+gram - gram
+gramatika - gramatyka
+granát - granat
+grandiózny - grandiozny
+granit - granit
+gratulácia - gratulacja
+gravitácia - grawitacja
+grif - chwyt
+gril - grill
+grilované - grillowane
+grimas - grymas
+grip - grypa
+grizly - grizzly
+gro - sedno
+grobian - grubianin
+groš - grosz
+groteska - groteska
+gróf - hrabia
+grúň - zbocze
+grunt - grunt
+grupa - grupa
+gula - kula
+guláš - gulasz
+guma - guma
+gumový - gumowy
+gusto - gust
+guz - guz
+gymnázium - gimnazjum
+habilitačný - habilitacyjny
+háčik - haczyk
+had - wąż
+hádanka - zagadka
+hádať - zgadywać
+hadica - wąż (gumowy)
+hádzať - rzucać
+háj - gaj
+hák - hak
+hala - hala
+halier - halerz
+haló - halo
+halucina - halucynacja
+haluz - gałąź
+hamovať - hamować
+hanba - wstyd
+hanbiť sa - wstydzić się
+hantírka - gwara
+hárai - hara
+harfa - harfa
+harmónia - harmonia
+hárok - arkusz
+hasenie - gaszenie
+hasič - strażak
+hasiť - gasić
+hasivo - środek gaśniczy
+hatiať - tamować
+havran - gawron
+hazard - hazard
+herec - aktor
+heslo - hasło
+hlad - głód
+hľadať - szukać
+hladný - głodny
+hlava - głowa
+hlavne - głównie
+hĺbka - głębokość
+hliadka - patrol
+hlien - śluz
+hlina - glina / ziemia
+hliník - aluminium
+hlodať - gryźć
+hlodavec - gryzoń
+hluchonemý - głuchoniemy
+hluchý - głuchy
+hluk - hałas
+hlúpy - głupi
+hmla - mgła
+hmlistý - mglisty
+hmotnosť - masa
+hnedý - brązowy
+hnev - gniew
+hnevať sa - złościć się
+hniezdo - gniazdo
+hniť - gnić
+hnoj - nawóz
+hnojivo - nawóz
+hnutie - ruch (społeczny)
+hoblík - hebel
+hobľovať - heblować
+hod - rzut
+hodina - godzina
+hodiť - rzucić
+hodnota - wartość
+hodný - godny
+hodváb - jedwab
+hokej - hokej
+hola - góra (bezleśna)
+holeň - goleń
+holič - fryzjer
+holiť - golić
+holub - gołąb
+homola - osełka
+honba - pogoń
+honiť - gonić
+honorár - honorarium
+hora - góra / góra (zalesiona)
+horár - gajowy
+horčica - musztarda
+hore - w górę / na górze
+horečka - gorączka
+horieť - palić się
+horize - horyzont
+horkosť - gorycz
+horký - gorzki
+horľavý - łatwopalny
+horný - górny
+horolezec - taternik
+horúci - gorący
+horúčka - gorączka
+hory - góry
+hospodár - gospodarz
+hosť - gość
+hostina - uczta
+hotel - hotel
+hovädzí - wołowy
+hoviť - dogadzać
+hovno - gówno
+hovor - rozmowa (telefoniczna)
+hovorca - rzecznik
+hovoriť - mówić
+hra - gra
+hrabať - grabić
+hráč - gracz
+hračka - zabawka
+hrad - zamek (obronny)
+hrada - belka
+hrádza - grobla
+hram - hram
+hrana - krawędź
+hranica - granica
+hranol - belka / prostopadłościan
+hrášok - groszek
+hrať - grać
+hrb - garb
+hrbatý - garbaty
+hrdina - bohater
+hrdlo - gardło
+hrdosť - duma
+hrdý - dumny
+hrebeň - grzebień
+hrianka - grzanka
+hriať - grzać
+hriech - grzech
+hriva - grzywa
+hrko - hrko
+hrmenie - grzmot
+hrniec - garnek
+hrob - grób
+hrom - grom
+hromada - gromada
+hron - hron
+hrozba - groźba
+hroziť - grozić
+hrozno - winogrono
+hrozný - straszny
+hrubý - gruby
+hruď - pierś
+hruška - gruszka
+hryz - gryz
+huba - grzyb / gęba
+hubár - grzybiarz
+hučať - huczeć
+hudba - muzyka
+hudobník - muzyk
+hukot - huk
+humanista - humanista
+humno - stodoła
+humor - humor
+hus - gęś
+húsenica - gąsienica
+húska - gąska
+husle - skrzypce
+húšť - gęstwina
+hustota - gęstość
+hustý - gęsty
+huta - huta
+hviezda - gwiazda
+hviezdy - gwiazdy
+hvizd - gwizd
+hýbať - ruszać
+hydina - drób
+hymna - hymn
+hypnotizovať - hipnotyzować
+hypotéka - hipoteka
+hýriť - hulać
+hysterik - histeryk
+iba - tylko
+ich - ich
+ideál - ideał
+idem - idę
+ideme - idziemy
+ideš - idziesz
+idúci - idący
+iglu - igloo
+ignorovať - ignorować
+igric - grajek
+ihneď - natychmiast
+ikona - ikona
+ilustrácia - ilustracja
+ilúzia - iluzja
+imatrikulácia - imatrykulacja
+imitovať - imitować
+imunit - immunitet
+imunita - odporność
+index - indeks
+indícia - indycja
+indigo - indygo
+indikátor - wskaźnik
+indivíduum - indywiduum
+infarkt - zawał
+infekcia - infekcja
+inflácia - inflacja
+informácia - informacja
+informátor - informator
+infúzia - infuzja
+iniciatíva - inicjatywa
+injekcia - zastrzyk
+inkaso - inkaso
+inkognito - incognito
+inovácia - innowacja
+inšpektor - inspektor
+inšpirácia - inspiracja
+inštalácia - instalacja
+inštinkt - instynkt
+inštitút - instytut
+inštrukcia - instrukcja
+Inštrumentál - S kým/čím?: [M] kabát-om/-mi, [N] tričk-om/-mi, [F] blúzk-ou/-ami / S kým/čím?: [M/N] -ým/-om, [F] -ou/-ou
+inteligencia - inteligencja
+intenzita - intensywność
+interiér - wnętrze
+internet - internet
+interpret - interpret
+interval - interwał
+interven - interwen
+intervencia - interwencja
+interview - wywiad
+intimita - intymność
+intonácia - intonacja
+intriga - intryga
+intuícia - intuicja
+inventár - inwentarz
+investícia - inwestycja
+inžinier - inżynier
+irónia - ironia
+islamský - islamski
+ísť - iść
+ísť do práce - iść do pracy
+iste - na pewno
+izba - pokój
+izolácia - izolacja
+izolátor - izolator
+izotop - izotop
+izrael - izrael
+ja - ja
+jablko - jabłko / jajko
+jachta - jacht
+jadro - jądro
+jahň - jagnię
+jahňací - jagnięcy
+jahoda - truskawka
+jak - jak / jak (zwierzę)
+jalec - kleń
+jalový - jałowy
+jama - dół
+jamka - dołek
+jantár - bursztyn
+január - styczeń
+jar - wiosna
+jarabina - jarzębina
+jarok - rowek
+jas - blask
+jaskyňa - jaskinia
+jasle - żłobek
+jasličky - żłobek (zdrobnienie)
+jasne - jasnowidz / jasne
+jasno - jasno
+jasný - jasny / wyraźny
+jastrab - jastrząb
+jatka - rzeźnia
+jav - zjawisko
+javisko - scena
+javiť - jawić
+jazda - jazda
+jazdec - jeździec
+jazdiť - jeździć
+jazero - jezioro
+jazva - blizna
+jazvečík - jamnik
+jazyk - język
+je - jest
+jebať - jebać
+jed - trucizna
+jedálny lístok - karta dań
+jeden - jeden
+jeden deň - jeden dzień
+jedenásť - jedenaście
+jedine - jedynie
+jedinec - osobnik
+jedinečný - wyjątkowy
+jedľa - jodła
+jedlo - jedzenie
+jedna hodina - jedna godzina
+jednoduchý - prosty / łatwy
+jednota - jedność
+jednotka - jednostka
+jednotlivý - pojedynczy
+jedovatý - trujący
+jeho - jego
+jej - jej
+jeleň - jeleń
+jelša - olcha
+jemne - delikatnie
+jemný - delikatny
+jeseň - jesień
+jesenný - jesienny
+jeseń - jesień
+jesť - jeść
+jesto - jest (formy)
+jet - jet
+jež - jeż
+ježiš - jezus
+joga - joga
+jogurt - jogurt
+jód - jod
+jódovať - jodować
+judáš - judasz
+juh - południe (strona świata)
+juj - ojej
+juka - juka
+júl - lipiec
+jún - czerwiec
+južný - południowy
+kabát - płaszcz
+kábel - kabel
+kabelka - torebka
+kabína - kabina
+kabinet - gabinet
+kábla - kabel
+kačica - kaczka
+kadiaľ - którędy
+kadidlo - kadzidło
+kajak - kajak
+kakao - kakao
+kal - muł
+kalendár - kalendarz
+kalibrácia - kalibracja
+kalich - kielich
+kalina - kalina
+kalný - mętny
+kalória - kaloria
+kaluža - kałuża
+kam - dokąd
+kamarát - kolega
+kamarátsky - koleżeński
+kameň - kamień
+kamera - kamera
+kamienny - kamienny
+kamión - ciężarówka
+kampaň - kampania
+kamzík - kozica
+kanál - kanał
+kancelária - biuro
+kandidát - kandydat
+kaňon - kanion
+kánon - kanon
+kanón - armata
+kanvica - czajnik
+kapacita - pojemność
+kapela - kapela
+kapitán - kapitan
+kapitola - rozdział
+kapra - karp
+kapusta - kapusta
+karafa - karafka
+karamel - karmel
+karanténa - kwarantanna
+karát - karat
+karatista - karateka
+karavána - karawana
+kardinál - kardynał
+kariéra - kariera
+karikatúra - karykatura
+karta - karta
+kartón - karton
+kasárne - koszary
+kašeľ - kaszel
+kaskadér - kaskader
+kasňa - szafa
+kasta - kasta
+katalóg - katalog
+katastrofa - katastrofa
+katedra - katedra
+katedrála - katedra (kościół)
+katoda - katoda
+katolícky - katolicki
+kauza - sprawa
+káva - kawa
+kaviár - kawior
+kaviareň - kawiarnia
+kázať - kazać
+každý - każdy
+kazeta - kaseta
+kaziť - psuć
+kde - gdzie
+Kde je skúšobná kabínka? - Gdzie jest przymierzalnia?
+kdesi - gdzieś
+kečup - keczup
+kedy - kiedy
+Kedy sa to stalo? - Kiedy to się stało?
+kefa - szczotka
+kel - jarmuż
+keľa - keľa
+ker - krzak
+kery - kery
+kilo - kilo
+kilogram - kilogram
+kino - kino
+kiosk - kiosk
+kladivo - młotek
+klam - kłamstwo
+klamať - kłamać
+klamstvo - kłamstwo
+klan - klan
+klas - kłos
+klasický - klasyczny
+klasifikácia - klasyfikacja
+klasika - klasyka
+kláštor - klasztor
+klávesnica - klawiatura
+klavir - pianino
+kĺb - staw (anatomia)
+klesať - spadać
+kletba - klątwa
+kliatba - klątwa
+klient - klient
+kliešte - kombinerki / szczypce
+kliknúť - kliknąć
+klíma - klimat
+klimatizácia - klimatyzacja
+klin - klin / łono
+klínec - goździk
+klinec - gwóźdź
+klinika - klinika
+klip - klip
+klobása - kiełbasa
+klobúk - kapelusz
+klofať - pukać
+kľúč - klucz
+kľučka - klamka
+kĺzať - ślizgać się
+klzisko - lodowisko
+kmeň - pień / plemię
+kmit - drganie
+kniha - książka
+kníhkupectvo - księgarnia
+knižnica - biblioteka
+knižný - książkowy
+knôt - knot
+knuta - knut
+koberec - dywan
+kobra - kobra
+kodifikácia - kodyfikacja
+koeficient - współczynnik
+kohút - kogut
+kohútik - kran
+kojiť - karmić piersią
+kokos - kokos
+kokteil - koktajl
+kola - cola
+koláč - ciasto
+kolaps - kolaps
+kolega - kolega
+kolekcia - kolekcja
+koleno - koleno / kolano
+koleso - koło
+koliba - szałas
+kolika - kolka
+kolísať - kołysać
+kolíska - kołyska
+koľko - ile
+Koľko je hodín? - Która godzina?
+kolmica - pionowa
+kolmý - pionowy
+kolorit - koloryt
+kolos - kolos
+kolotoč - karuzela
+kolóna - kolumna / korek
+kolónia - kolonia
+komander - komendant
+komár - komar
+kométa - kometa
+komfort - komfort
+komiks - komiks
+komín - komin
+komisia - komisja
+komnata - komnata
+komora - komora
+kompakt - kompakt
+kompas - kompas
+komplet - komplet
+komplex - kompleks
+komplikácia - komplikacja
+komponovať - komponować
+kompót - kompot
+kompresor - kompresor
+kompromis - kompromis
+komunita - społeczność
+konár - gałąź / konar
+koncentrácia - koncentracja
+koncert - koncert
+končiť sa - kończyć się
+kondícia - kondycja
+konečne - wreszcie
+konečný - końcowy
+konferencia - konferencja
+konfety - konfetti
+konflikt - konflikt
+koníček - hobby
+koniec - koniec
+koník - konik
+konkrétny - konkretny
+konkurencia - konkurencja
+konkurz - konkurs
+konopa - konopie
+konštatovať - stwierdzać
+konštrukcia - konstrukcja
+kontajner - kontener
+kontakt - kontakt
+kontext - kontekst
+kontinent - kontynent
+konto - konto
+kontraband - kontrabanda
+kontrast - kontrast
+kontrola - kontrola
+kontúry - kontury
+konvencia - konwencja
+konverzia - konwersja
+konvoj - konwój
+konzerva - konserwa
+konzul - konsul
+konzultácia - konsultacja
+konzument - konsument
+kopec - wzgórze
+kopírovať - kopiować
+kopiť - gromadzić
+kopnúť - kopnąć
+kopýtko - kopytko
+kopyto - kopyto
+koráb - okręt
+korál - koral
+korálik - koralik
+korba - skrzynia ładunkowa
+kord - kord
+korektor - korektor
+koreň - korzeń
+korenie - pieprz / przyprawa
+koreniť - pieprzyć / przyprawiać
+koridor - korytarz
+korigovať - korygować
+korisť - zdobycz
+kormidlo - ster
+koruna - korona
+koryto - koryto
+kos - kos
+kosa - kosa
+košeľa - koszula
+kosiér - kosiér
+košík - koszyk
+kosiť - kosić
+kosť - kość
+kostol - kościół
+kostra - szkielet
+kostým - kostium
+kotol - kocioł
+kotúč - tarcza / krążek
+kotva - kotwica
+kotviť - kotwiczyć
+kouč - trener
+kov - metal
+kováč - kowal
+koza - koza
+koža - skóra
+kožený - skórzany
+kožuch - kożuch
+kód - kod
+kólia - collie
+kópia - kopia
+krab - krab
+krabica - pudełko
+kráčat - kroczyć
+kradnúť - kraść
+kraj - skraj / region
+krájať - kroić
+krajina - kraj
+kráľ - król
+králik - królik
+kramle - kramle
+krása - piękno
+krásny - piękny
+krát - razy
+krátko - krótko
+krátkosť - krótkość
+krátky - krótki
+krava - krowa
+kravata - krawat
+krb - kominek
+krč - skurcz
+kŕč - skurcz
+krčiť - gnieść / tulić
+krčma - karczma / knajpa
+kŕdeľ - stado (ptaków)
+kreácia - kreacja
+kredit - kredyt
+krehký - kruchy
+krém - krem
+kremácia - kremacja
+kremík - krzem
+kres - kres
+kresadlo - krzesiwo
+kresať - ciosać
+kresba - rysunek
+kresliť - rysować
+kreslo - fotel
+kresťan - chrześcijanin
+krev - krew
+krídelko - skrzydełko
+krídlo - skrzydło
+krígeľ - kufel
+krik - krzyk
+kriminál - kryminał
+krívať - kuleć
+kríž - krzyż
+kríza - kryzys
+krk - szyja
+kŕmiť - karmić
+krob - krob
+krok - krok
+kroket - krokiet
+krompáč - kilof
+kronika - kronika
+kropiť - kropić
+krovie - krzaki
+kruh - koło
+kruhové objazd - rondo
+krúpa - grad
+krupica - kasza manna
+krútiť - kręcić
+krutý - okrutny
+krúžok - kółko
+krv - krew
+krvavý - krwawy
+krvinka - krwinka
+krvipreliatie - rozlew krwi
+krviť - krwawić
+kŕžiť - krążyć
+kšeft - interes
+kto - kto
+ktorý - który
+ktosi - ktoś
+kubík - metr sześcienny
+kuchár - kucharz
+kuchyňa - kuchnia
+kufor - bagażnik / walizka
+kujon - łajdak
+kukať - kukać / patrzeć
+kukurica - kukurydza
+kulisa - kulisa
+kuloár - kuluar
+kult - kult
+kultúra - kultura
+kupca - kupiec
+kúpeľ - kąpiel
+kúpeľňa - łazienka
+kúpiť - kupić
+kupón - kupon
+kura - kura
+kurča - kurczak
+kurčatá - kurczaki
+kúrenie - ogrzewanie
+kuriér - kurier
+kuriozita - kuriozum
+kurivo - paliwo
+kuriz - kuriz
+kurizovať - zalecać się
+kurník - kurnik
+kurz - kurs
+kus - sztuka / kawałek
+kúsat - gryźć
+kúsok - kawałeczek
+kutica - klitka
+kútiť - dłubać
+kúto - kąt
+kužeľ - stożek
+kvačať - kucać
+kvaka - brukiew
+kvalita - jakość
+kvantita - ilość
+kvapalina - ciecz
+kvapka - kropla
+kvapkár - zakraplacz
+kvapkať - kapać
+kvár - kvár
+kvarteto - kwartet
+kvartira - kwatera
+kvasnice - drożdże
+kvások - zakwas
+kvasť - kwas
+kvázi - quasi
+kvet - kwiat
+kvetina - roślina (kwiat)
+kvetináč - doniczka
+kvietok - kwiatuszek
+kvíliť - kwilić
+kvitnúť - kwitnąć
+kvôli - z powodu
+kvóta - kwota
+kybel - kubeł
+kýchať - kichać
+kyjak - maczuga
+kykyríkať - piać
+kyl - kyl
+kým - dopóki
+kynológ - kynolog
+kynúť - rosnąć (ciasto)
+kypieť - kipieć
+kypriť - spulchniać
+kyrie - kyrie
+kyslík - tlen
+kyslý - kwaśny
+kysnúť - kwaśnieć
+kytica - bukiet
+kyvadlo - wahadło
+kyvať - kiwać
+labilný - labilny
+laborant - laborant
+labuť - łabędź
+labyrint - labirynt
+lacný - tani
+lad - lód
+ľad - lód
+ladiť - stroić
+ladnička - lodówka
+ľahký - lekki / łatwy
+lahoda - rozkosz
+lahôdka - smakołyk
+ľahostajný - obojętny
+laik - laik
+lajda - lajda
+lak - lakier
+lakeť - łokieć
+lakomec - skąpiec
+lakomý - skąpy
+lakovať - lakierować
+lama - lama
+lámať - łamać
+lampa - lampa
+lampáš - lampion
+lán - łan
+lano - lina
+lanovka - kolejka linowa
+láp - łap
+lapač - łapacz
+lapať - łapać
+lapis - lapis
+larva - larwa
+laska - łaska
+láska - miłość
+laso - laso
+latina - łacina
+latka - listwa
+latrína - latryna
+latu - łata
+lavína - lawina
+lávka - kładka
+lavor - lavor
+lavór - miska (duża)
+lavy - lewy
+ľavý - lewy
+lebo - bo
+lekár - lekarz
+lekáreň - apteka
+lekárnik - aptekarz
+len - tylko
+lenivý - leniwy
+lepší - lepszy
+les - las
+lešenie - rusztowanie
+letisko - lotnisko
+letný - letni
+leto - lato
+letuška - stewardesa
+líce - policzek
+liečba - leczenie
+lietadlo - samolot
+list - liść / list
+lístok - bilet
+literatúra - literatura
+loď - statek / łódź
+lodičky - szpilki
+Lokál - O kom/o čom?: [M] kabát-e/-och, [N] tričk-u/-ach, [F] blúzk-e/-ach
+lopta - piłka
+ľudia - ludzie
+lúka - łąka
+lýra - lira / lyria
+lyža - narta
+lyžiar - narciarz
+lyžica - łyżka
+lyžička - łyżeczka
+má - ma
+máj - maj
+majetok - majątek
+majú - mają
+mäkký - miękki
+málo - mało
+malý - mały
+mám - mam
+mama - mama
+máme - mamy
+manžel - mąż
+manželka - żona
+marec - marzec
+márne - na próżno
+máš - masz
+mäsiarstvo - rzeźnik / sklep mięsny
+maslo - masło
+mäso - mięso
+mastný - tłusty
+mať - mieć
+mať oblečené - mieć na sobie
+máte - macie
+materiál - materiał
+matka - matka
+matrac - materac
+med - miód
+meniny - imieniny
+mesiac - księżyc
+meškať - spóźniać się
+mesto - miasto
+meter - miara / metr
+mier - pokój (na świecie)
+miešať - mieszać
+miestny - lokalny
+mihalnice - rzęsy
+milý - miły
+minulosť - przeszłość
+mínus - minus
+minúta - minuta
+miska - miseczka
+mladý - młody
+mlieko - mleko
+modrý - niebieski
+môj - mój
+mokrý - mokry
+more - morze
+motor - silnik
+motýľ - motyl
+môže - może
+môžem - mogę
+Môžem si to vyskúšať? - Mogę to przymierzyć?
+môžeme - możemy
+môžeš - możesz
+môžete - możecie
+možno - może
+možný - możliwy
+mozog - mózg
+môžu - mogą
+mravec - mrówka
+mráz - mróz
+mraznička - zamrażarka
+mucha - mucha
+múdry - mądry
+múka - mąka
+musí - musi
+musia - muszą
+musím - muszę
+musíme - musimy
+musíš - musisz
+musíte - musíte
+muž - mężczyzna
+múzeum - muzeum
+my - my
+mydlo - mydło
+mýliť sa - mylić się
+mýlka - pomyłka
+myš - myszka (komputerowa) / mysz
+myšlienka - myśl
+myť - myć
+mýto - myto
+mýtus - mit
+na - na
+nabaliť - zapakować
+nábeh - rozbieg
+naberať - nabierać
+nabíjačka - ładowarka
+nabrať - nabrać
+nábytok - meble
+nacvičiť - wyćwiczyć
+nad - nad
+nadácia - fundacja
+nadanie - talent
+nádcha - katar
+nádej - nadzieja
+nadjazd - wiadukt
+nadšený - zachwycony
+nádvorie - dziedziniec
+nafta - olej napędowy
+nagant - nagant
+náhle - nagle
+náhoda - przypadek
+náhodný - przypadkowy
+náhodou - przypadkiem
+nahrať - wysłać (upload)
+nahý - nagi
+najmä - zwłaszcza
+najneskôr o piatej - najpóźniej o piątej
+nájsť - znaleźć
+nákup - zakup
+nálada - nastrój
+nálepka - naklejka
+nálet - nalot
+nález - znalezisko
+naliehať - nalegać
+nálog - nałóg
+nálož - ładunek
+námestie - plac / rynek
+námet - temat
+namietka - sprzeciw
+námietka - zarzut
+namočiť - namoczyć
+namyslený - zarozumiały
+nanič - do niczego
+naozaj - naprawdę
+nápad - pomysł
+nápaditý - pomysłowy
+napätie - napięcie
+napínavý - napinający / ekscytujący
+napísať - napisać
+náplasť - plaster
+naplnený - napełniony
+nápoj - napój
+napokon - w końcu
+nápor - napór
+náprav - naprawa
+napravo - po prawej
+napred - naprzód
+napríklad - na przykład
+náročky - umyślnie
+náročný - wymagający
+národ - naród
+narodeniny - urodziny
+narodiť sa - urodzić się
+nárok - roszczenie
+narysovať - narysować
+náš - nasz
+naschvál - na przekór
+násilie - przemoc
+náskok - przewaga
+následok - skutek
+nástroj - narzędzie
+nástup - wejście / start
+nátlak - nacisk
+natrieť - nasmarować
+natruc - na przekór
+naučiť - nauczyć
+návnada - przynęta
+návod - instrukcja
+návrh - projekt / propozycja
+návšteva - wizyta
+navštíviť - odwiedzić
+navyše - dodatkowo
+nazmar - na marne
+názor - opinia
+názov - nazwa
+neba - niebo
+nebezpečenstvo - niebezpieczeństwo
+nebezpečný - niebezpieczny
+nechať - zostawić
+necht - paznokieć
+nedávno - niedawno
+nedeľa - niedziela
+neha - czułość
+neistota - niepewność
+neistý - niepewny
+nejaký - jakiś
+nekľud - niepokój
+nekonečný - nieskończony
+nemocnica - szpital
+nemocný - chory
+nemý - niemy
+nenávisť - nienawiść
+neporiadok - nieporządek
+nepriamo - pośrednio
+nepriateľ - wróg
+nerast - minerał
+nerv - nerw
+neskoro - późno
+neskorý - późny
+nešťastný - nieszczęśliwy
+nevýhoda - wada
+neznámy - nieznany
+nič - nic
+ničiť - niszczyć
+nie - nie
+Nie sme tučniaky - Nie jesteśmy pingwinami
+niečo - coś
+niekde - gdzieś
+niekedy - czasami
+niekoľko - kilka
+niekto - ktoś
+niektorý - niektóry
+nielen - nie tylko
+niesť - nieść
+nikde - nigdzie
+nikdy - nigdy
+nikto - nikt
+nížina - nizinny
+nízky - niski
+noblesný - wytworny
+noc - noc
+noha - noga
+nohavice - spodnie
+nohy - nogi
+Nominatív - Kto/čo?: [M] kabát/kabáty, [N] tričko/tričká, [F] blúzka/blúzky
+normálny - normalny
+nos - nos
+nosič - tragarz
+nosiť - nosić / nosiť
+nositeľ - nosiciel
+nostalgia - nostalgia
+nota - nuta
+notár - notariusz
+novák - nowicjusz
+novela - nowela
+november - listopad
+novinár - dziennikarz
+noviny - gazeta
+novosť - nowość
+novovek - nowożytność
+nový - nowy
+nôž - nóż
+nozdra - nozdrze
+nožnice - nożyczki
+nuance - niuans
+nuda - nudy
+nudiť sa - nudzić się
+núdza - nędza
+nugát - nugat
+núkať - oferować
+nukleárny - nuklearny
+nula - zero
+núrať - szperać
+nútiť - zmuszać
+nutný - konieczny
+o - o
+o deviatej - o dziewiątej
+o pol desiatej - o 9:30
+o štvrť na desať - o 9:15
+o tri štvrte na desať - o 9:45
+obal - opakowanie
+obava - obawa
+občan - obyvateel / obywatel
+občerstvenie - odświeżenie / bufet
+obchod - handel / sklep
+obchodné centrum - centrum handlowe
+obdiv - podziw
+obdivovať - podziwiać
+obdobie - okres
+obebať - oszukać
+obec - gmina
+obecný - powszechny
+obed - obiad
+obeta - ofiara
+objav - odkrycie
+oblak - chmura
+oblečenie - ubranie
+oblek - garnitur
+obletieť - oblecieć
+obličaj - twarz
+obliečka - poszewka
+obliecť - ubrać
+obliekať - ubierać
+obliekať si - ubierać się
+obloha - niebo / niebo (widok)
+oblok - okno (arch.)
+obľúbený - ulubiony
+obľúbiť - polubić
+oblúk - łuk
+obnažiť - odsłonić
+obnoviť - odnowić
+obočie - brew
+obor - olbrzym / dziedzina
+obrad - obrzęd
+obrana - obrona
+obrať - obrać / zabrać
+obrat - obrót
+obrátiť - obrócić
+obratný - zręczny
+obraz - obraz
+obrázok - obrazek
+obrazovka - ekran
+obrna - paraliż
+obrovský - ogromny
+obrubník - krawężnik
+obrus - obrus
+obrys - obrys
+obsadené - zajęte
+obsah - zawartość
+obuv - obuwie
+obúvať si - zakładać buty
+obväz - bandaż
+obvinený - oskarżony
+obvod - obwód
+obyčaj - zwyczaj
+obyčajný - zwyczajny
+obývacia izba - pokój dzienny
+obývačka - salon
+obzor - horyzont
+oceľ - stal
+oceliar - hutnik
+oceniť - docenić
+oceňovať - oceniać
+ochočiť - oswoić
+ochrana - ochrona
+ochranca - obrońca
+ochutiť - doprawić
+ochutnať - spróbować (smak)
+oči - oczy
+oci - tato
+ocino - tatuś
+ocitnúť sa - znaleźć się
+ocot - ocet
+od - od
+odber - odbiór
+odborník - ekspert
+odbyt - zbyt
+odchod - odejście
+oddaný - oddany
+oddať - oddać
+oddiel - oddział
+oddychovať - odpoczywać
+odev - odzież
+odhad - szacunek / ocena
+odhodlanie - determinacja
+odhodlanosť - determinacja
+odísť - odejść
+odkaz - link / wiadomość
+odklad - odroczenie
+odlet - odlot
+odliatok - odlew
+odlíšiť - odróżnić
+odložiť - odłożyć
+odluk - odłączenie
+odmena - nagroda
+odmerať - odmierzyć
+odmietnuť - odmówić
+odmlka - pauza
+odniesť - odnieść
+odobrať - odebrać
+odolnosť - odporność
+odoprieť - odmówić
+odpad - odpady / odpływ / śmieci
+odpor - opór
+odporný - wstrętny
+odpoveď - odpowiedź
+odpovedať - odpowiadać
+odpustiť - wybaczyć
+odpútať - odwiązać
+odraz - odbicie
+odroda - odmiana
+odsek - akapit
+odsúdiť - osądzić
+odtlačok - odcisk
+odvádzať - odprowadzać
+odvaha - odwaga / śmiałość
+odvar - wywar
+odvážny - odważny
+odviesť - odprowadzić
+odvolať - odwołać
+odvoz - wywóz
+odvtedy - od tego czasu
+odvzdušniť - odpowietrzyć
+odzbrojiť - rozbroić
+odznak - odznaka
+ofenzíva - ofensywa
+oficiálny - oficjalny
+ofina - grzywka
+oheň - ogień
+ohnisko - ognisko (soczewki)
+oholiť - ogolić
+ohrada - ogrodzenie
+ohradit - ogrodzić
+ohromný - ogromny
+ohroziť - zagrozić
+ojebať - wyrolować
+okamať - okłamać
+okamih - moment
+okázalý - okazały
+okno - okno
+oko - oko
+okolie - okolica
+okolnosť - okoliczność
+okolo - około
+okolo desiatej - około dziesiątej
+okradnúť - okraść
+okraj - skraj
+okres - powiat
+okresať - ociosać
+okrúhliť - zaokrąglić
+okrúhly - okrągły
+okružia - otoczenie
+október - październik
+okuliare - okulary
+olej - olej
+olovo - ołów
+olovrant - podwieczorek
+olymp - olimp
+olympiáda - olimpiada
+omáčka - sos
+omamný - odurzający
+omša - msza
+omyl - pomyłka
+on - on
+ona - ona
+oni - oni
+ono - ono
+opad - opad
+opakovanie - powtarzanie
+opakovať - powtarzać
+opáliť - opalić
+opara - opar
+opasok - pasek
+opát - opat
+opäť - znowu
+opatera - opieka
+opatre - ostrożnie
+opatrne - ostrożnie
+opatrný - ostrożny
+operácia - operacja
+opierať - opierać
+opis - kopia / opis
+oplatiť - opłacić
+oplatiť sa - opłacać się
+oplatka - opłatek
+oplotit - ogrodzić
+opona - kurtyna
+opora - oparcie
+opovrhovať - gardzić
+opozícia - opozycja
+oprava - naprawa
+opravár - monter
+opraviť - naprawić
+opretie - oparcie (ruch)
+oproti - naprzeciwko
+opuch - opuchlizna
+opustiť - opuścić
+opýtať sa - zapytać
+oráč - oracz
+oradlo - pług
+oranžový - pomarańczowy
+orbita - orbita
+orchester - orkiestra
+orech - orzech
+orgán - organ
+orgie - orgie
+orientácia - orientacja
+originál - oryginał
+orlie - orli
+orloj - zegar astronomiczny
+osa - osa
+osada - osada
+osadiť - osadzić
+osamelý - samotny
+osamieť - osamotnieć
+osem - osiem
+osemdesiat - osiemdziesiąt
+osemnásť - osiemnaście
+osivo - materiał siewny
+oslabiť - osłabić
+oslava - impreza / uroczystość
+oslepiť - oślepić
+oslobodiť - uwolnić
+osloviti - zagadnąć
+osoba - osoba
+osobnosť - osobowość
+osobný - osobisty
+ospravedlniť - usprawiedliwić
+ostať - zostać
+ostatný - pozostały / ostatni
+ostna - kolec
+ostrie - ostrze
+ostro - ostro
+ostrov - wyspa
+ostrý - ostry
+ostuda - wstyd / hańba
+ostup - odstęp
+osud - los
+osudný - fatalny
+osvedčiť - zaświadczyć
+osvetliť - oświetlić
+osviežiť - odświeżyć
+osvojiť - przyswoić
+otázka - pytanie
+otáznik - znak zapytania
+otca - ojciec
+otčenáš - ojcze nasz
+otec - ojciec
+otlak - odcisk (rana)
+otrava - trucizna
+otrok - niewolnik
+otvor - otwór
+otvorený - otwarty
+otvoriť - otworzyć
+ovácia - owacja
+ovál - owal
+oválny - owalny
+ovládanie - sterowanie
+ovládať - panować / obsługiwać
+ovocie - owoce / owoc
+ovocný šalát - sałatka owocowa
+ovplyvnić - wpłynąć
+ovšem - owszem
+ozaj - doprawdy
+ožiarenie - naświetlenie
+označit - oznaczyć
+oznam - ogłoszenie
+ozvena - echo
+pach - zapach
+páčiť sa - podobać się
+pád - upadek
+pádlo - wiosło
+padnúť - upaść
+pagáč - pogacz (placek)
+pajác - pajac
+páka - dźwignia
+pakov - pakunek
+palác - pałac
+palec - kciuk / palec u nogi
+pálenie - palenie
+paleta - paleta
+páliť - palić
+palivo - paliwo
+pálivý - ostry / piekący
+palma - palma
+paluba - pokład
+pamäť - pamięć
+pamätať si - pamiętać
+pamätník - pomnik
+pamiatka - pamiątka
+pamiatky - zabytki
+pán - pan
+panák - kieliszek / figurka
+pancier - pancerz
+panely - panele
+panika - panika
+panna - dziewica
+pánt - zawias
+panva - miednica / patelnia
+panvica - patelnia
+papež - papież
+papier - papier
+paplón - kołdra
+paprika - papryka
+papuče - kapcie
+pár - kilka / para
+para - para
+parabola - parabola
+paráda - parada
+paradajka - pomidor
+parafín - parafina
+paragraf - paragraf
+paralela - paralela
+paralyzovať - paraliżować
+parazit - pasożyt
+parčík - skwerek
+park - park
+párka - parówka
+parkovať - parkować
+parkovisko - parking
+parlament - parlament
+parník - parowiec
+parochňa - peruka
+paroh - róg (jelenia)
+parom - piorun (przekleństwo)
+párty - party
+pas - paszport / pas
+paša - pasza
+pasat - pasat
+pasca - pułapka
+pasia - pasja
+pasivita - pasywność
+pásmo - pasmo
+pasovať - pasować (o ubraniu) / pasować
+päsť - pięść
+pastier - pasterz
+pastilka - pastylka
+pastis - pastis
+pastviny - pastwiska
+pat - pat
+päť - pięć
+päta - pięta
+päťdesiat - pięćdziesiąt
+patent - patent
+páter - ojciec (duchowny)
+pätnásť - piętnaście
+pátrať - badać / tropić
+patritsa - należeć
+patrón - patron
+pauza - pauza
+pavlač - galeria (w kamienicy)
+pavón - paw
+pavučina - pajęczyna
+pavúk - pająk
+pax - pokój (łac.)
+pažba - kolba
+pazúr - pazur
+pec - piec
+pečať - pieczęć
+pečatidlo - pieczątka
+pečatný - pieczętny
+pečeň - wątroba
+pečené - pieczone
+pečiatka - pieczątka
+pečivo - pieczywo
+pedagog - pedagog
+pedál - pedał
+pehavý - piegowaty
+pekár - piekarz
+peklo - piekło
+pekný - ładny
+pel - pyłek
+pelerína - peleryna
+pelikán - pelikan
+peň - pień
+pena - piana
+peňaženka - portfel
+peniaze - pieniądze
+penzión - pensjonat
+perie - pierze
+perina - kołdra
+perla - perła
+pero - długopis
+perón - peron
+personál - personel
+peruť - skrzydło (formacja)
+pery - wargi
+perzský - perski
+pes - pies
+pešiak - pionek / piechur
+pešo - pieszo
+pestovanie - uprawa
+pestovať - uprawiać
+peteľ - pętla
+petícia - petycja
+petrolej - nafta
+pevne - mocno
+pevnosť - twierdza / stałość
+pevný - stały / mocny
+pianíno - pianino
+piáno - pianino
+piarist - pijar
+piatok - piątek
+pichľavý - kłujący
+pichnúť - ukłuć
+piect - piec
+piecť - piec
+pieseň - pieśń
+piesok - piasek
+piest - tłok
+pietny - pietystyczny
+pilier - filar
+piliť - piłować
+pílka - piłka (do drewna)
+pilník - pilnik
+pilot - pilot
+pilula - pigułka
+pinzeta - pęseta
+pionier - pionier
+pirát - pirat
+písať - pisać
+písmeno - litera
+písmo - pismo
+pištoľ - pistolet
+piť - pić
+pitie - picie
+pitva - sekcja zwłok
+pivnica - piwnica
+pivo - piwo
+plachta - prześcieradło / żagiel
+plachý - płochliwy
+placka - placek
+plakať - płakać
+plameň - płomień
+plán - plan
+planéta - planeta
+planieta - menda
+plantáž - plantacja
+plast - plastik
+plášť - płaszcz / opona
+plat - płaca
+platiť - płacić
+platňa - płyta
+platný - ważny
+plávať - pływać
+plavec - pływak
+plavidlo - jednostka pływająca
+plavky - strój kąpielowy / kąpielówki
+plaz - gad
+pláž - plaża
+plece - ramię
+plech - blacha
+plemeno - rasa
+plenta - parawan
+plénum - plenum
+ples - bal
+pleseň - pleśń
+pletivo - siatka
+pliesť - pleść
+plot - płot
+pľúca - płuca
+plus - plus
+pľuť - pluć
+pľuvanec - splunięcie
+pľuzgier - pęcherz (rana)
+plyn - gaz
+pneumatika - opona
+po - po
+pobaliť - popakować
+pobaviť - zabawić
+pobehovať - biegać
+pobrežie - wybrzeże
+poburujúci - oburzający
+pobyt - pobyt
+počas - podczas
+počasie - pogoda
+pochod - marsz
+pochopenie - zrozumienie
+pochopiť - zrozumieć
+pochúťka - smakołyk
+pochvala - pochwała
+pochybnosť - wątpliwość
+počiatok - początek
+pocit - uczucie
+počítač - komputer
+počítať - liczyć
+počkať - poczekać
+počuť - słyszeć
+počúvať - słuchać
+pod - pod
+pôda - gleba
+podanie - podanie
+podarovať - podarować
+podávať - podawać
+podbradník - śliniak
+podchod - przejście podziemne
+podiel - udział
+podivný - dziwny
+podlaha - podłoga
+podmienka - warunek
+podnik - zakład / firma
+podnikateľ - przedsiębiorca
+podnos - taca
+podobný - podobny
+podozrievať - podejrzewać
+podozrivý - podejrzany
+podpáliť - podpalić
+podpis - podpis
+podpora - wsparcie
+podstata - istota / treść
+podstatný - istotny
+podstavec - podstawka
+podvod - oszustwo
+podvozok - podwozie
+pohár - szklanka / kieliszek
+pohľad - widok
+pohoda - spokój
+pohostinný - gościnny
+pohotovosť - ostre dyżury
+pohreb - pogrzeb
+pohromy - katastrofy
+pohyb - ruch
+poistiť - ubezpieczyć
+poistka - bezpiecznik
+poisťovňa - ubezpieczalnia
+pojazd - podwozie
+pokaziť sa - popsuć się
+poker - poker
+poklad - skarb
+pokladňa - kasa
+pokoj - spokoj / pokój / spokój
+pokora - pokora
+pokrik - okrzyk
+pokrm - pokarm
+pokrok - postęp
+pokryť - pokryć
+pokus - próba
+pokuta - mandat / kara
+pol - pół
+polárnik - polarnik
+pole - pole
+polený - łupany
+polica - półka
+policajt - policjant
+polícia - policja
+polička - półka
+polievka - zupa
+poling - poligon
+poľnohospodárstvo - rolnictwo
+poloha - położenie
+polosirota - półsierota
+polovic - połowa
+položiť - położyć
+polročný - półroczny
+pomáhať - pomagać
+pomaly - powoli
+pomalý - powolny / wolny
+pomaranč - pomarańcza
+pomerne - stosunkowo
+pomník - nagrobek
+pomoc - pomoc
+pomôcť - pomóc
+ponáhľať sa - spieszyć się / śpieszyć się
+pondelok - poniedziałek
+ponožky - skarpetki
+ponuka - oferta
+poplatok - opłata
+popol - popiół
+popoludní - po południu
+populárny - popularny
+poriadny - porządny
+poriadok - porządek
+pôrod - poród
+portrét - portret
+poschodie - piętro
+poslať - posłać
+posledný - ostatni
+poslúchať - słuchać się / być posłusznym
+poslušný - posłuszny
+posol - posłaniec
+pošta - poczta
+postava - sylwetka
+postaviť - postawić
+postieľka - łóżeczko
+postup - procedura / postęp
+postupne - stopniowo
+pot - pot
+potlesk - oklaski
+potok - potok
+potom - potem
+potrava - żywność
+potraviny - artykuły spożywcze
+potreba - potrzeba
+potrebný - potrzebny
+potrubie - rurociąg / rury
+potrvat - potrwać
+potvrdiť - potwierdzić
+použiť - użyć
+používať - używać
+povaha - charakter
+povala - strych
+povedomý - znajomy
+povera - przesąd
+povesť - legenda
+povinnosť - obowiązek
+povinnoť - obowiązek
+povodeň - powódź
+povolanie - zawód
+povolenie - pozwolenie
+povrch - powierzchnia
+pozadie - tło
+pozemok - działka
+pozerať - oglądać
+požiar - pożar
+požičať - pożyczyć
+pozícia - pozycja
+pôžička - pożyczka
+pozitívny - pozytywny
+poznať - znać
+pozor - uwaga
+pozorne - uważnie
+pozornosť - uwaga
+pozrieť - spojrzeć
+pozvanie - zaproszenie
+póda - gleba / ziemia
+pódium - podium
+práca - praca
+prach - kurz
+práčka - pralka
+pracovať - pracować
+praktický - praktyczny
+prameň - źródło
+pranie - pranie
+prať - prać
+pravda - pravda / prawda
+pravidelne - regularnie
+pravidelný - regularny
+pravidlo - zasada
+právnik - prawnik
+pravo - prawo (kierunek)
+pravý - prawy
+prázdny - pusty
+pražský - praski
+prechod pre chodcov - przejście dla pieszych
+prečo - dlaczego
+pred - przed
+predaj - sprzedaż
+predajca - sprzedawca
+prednáška - wykład
+predpoveď - prognoza
+predtým - przedtem
+prehra - porażka / przegrana
+prehrať - przegrać
+prekážka - przeszkoda
+prekladateľ - tłumacz
+prekvapenie - niespodzianka
+prekvapiť - zaskoczyć
+prepáčte - przepraszam
+presný - dokładny
+prestávka - przerwa
+preto - dlatego
+pretože - ponieważ
+preukaz - legitymacja
+prevádzka - ruch / działalność
+prevencia - prewencja
+prevodovka - skrzynia biegów
+prežiť - przeżyć
+pri - przy
+priať - życzyć
+priateľstvo - przyjaźń
+príbor - sztućce
+Prídem o chvíľu - Przyjdę za chwilę
+priebeh - przebieg
+priečinok - folder
+priemysel - przemysł
+priestor - przestrzeń
+priestupok - wykroczenie
+prieval - zalanie
+prihláška - zgłoszenie
+prijať - przyjąć
+príjemný - przyjemny
+priklad - przykład
+prilba - kask
+priletieť - przylecieć
+príležitosť - okazja / szansa
+príliš - zbyt
+prime - bezpośrednio
+princíp - zasada
+prípad - przypadek
+príprava - przygotowanie
+pripraviť - przygotować
+prírastok - przyrost
+príroda - przyroda
+prirodzený - naturalny
+prísny - surowy
+príspevok - składka / post
+prísť - przyjść
+prístav - port
+prístup - dostęp / podejście
+prítomnosť - teraźniejszość
+priviesť - przyprowadzić
+priznať - przyznać
+problém - problem
+proces - proces
+produkt - produkt
+profesor - profesor
+program - program
+projekcia - projekcja
+projekt - projekt
+prokurátor - prokurator
+promócia - promocja (studiów)
+propaganda - propaganda
+prosím - proszę
+prosiť - prosić
+prospekt - prospekt
+prospieť - przynieść korzyść
+protest - protest
+protestovať - protestować
+protokol - protokół
+provokácia - prowokacja
+prst - palec
+prúd - prąd
+prudký - gwałtowny
+prúser - wpadka
+prvok - pierwiastek
+prvý - pierwszy
+pšenica - pszenica
+pšeno - jagły
+psí - psi
+pstruh - pstrąg
+púčik - pąk
+pulz - puls
+púšť - pustynia
+púť - odpust / pielgrzymka
+pútať - przywiązywać
+pútka - pętelka
+pútnik - pielgrzym
+púto - więź
+puzdro - etui
+pýcha - pycha
+pykať - pokutować
+pyramída - piramida
+pýšiť sa - szczycić się
+pysk - pysk
+pýtať - prosić
+pýtať sa - pytać
+pyžamo - piżama
+rad - rząd / kolejka
+radar - radar
+radi - chętnie
+radiácia - radiacja
+radiátor - kaloryfer
+rádio - radio
+radnica - ratusz
+radosť - radość
+radšej - raczej
+raketa - rakieta
+rameno - ramię
+rana - rana
+raňajkovať - jeść śniadanie
+raňajky - śniadanie
+ráno - rano
+rany - rany
+rasa - rasa
+rast - wzrost
+rastlina - roślina
+rátať - liczyć
+raz - raz
+reagovať - reagować
+reál - real
+reálny - realny
+rebel - buntownik
+rebri - żebro
+rebrík - drabina
+rebro - żebro
+recepcia - recepcja
+recept - przepis
+recitovať - recytować
+recyklácia - recykling
+redaktor - redaktor
+reforma - reforma
+regál - regał
+región - region
+registratúra - rejestratura
+regula - reguła
+rehabilitácia - rehabilitacja
+reklama - reklama
+reklamácia - reklamacja
+rekord - rekord
+rekreácia - rekreacja
+rektor - rektor
+relácia - audycja
+relikvia - relikwia
+rely - rajd
+remeň - pas
+remeslo - rzemiosło
+remienok - paseczek
+remíza - remis
+renomé - renoma
+reparácia - reparacja
+repríza - powtórka
+reproduktor - głośnik
+republika - republika
+rešerš - kwerenda
+rešpekt - respekt
+reštartovať - zrestartować
+reštaurácia - restauracja
+reťaz - łańcuch
+retiazka - łańcuszek
+rev - ryk
+revír - rewir
+revízia - rewizja
+revolúcia - rewolucja
+revolver - rewolwer
+rez - cięcie
+rezance - kluski
+rezeň - kotlet (sznycel) / kotlet
+rezerva - rezerwa
+rezervácia - rezerwacja
+réžia - reżyseria
+režim - reżim
+režisér - reżyser
+rezort - resort
+rezortný - resortowy
+riadiť - kierować
+riaditeľ - dyrektor
+riadok - linijka
+riasa - rzęsa / alga
+riava - potok górski
+riečisko - koryto rzeki
+riečka - rzeczka
+riedky - rzadki
+rieka - rzeka
+riešenie - rozwiązanie
+riešiť - rozwiązywać
+rifle - dżinsy
+rikať - mówić
+riziko - ryzyko
+rod - ród / rodzaj
+rodič - rodzic
+rodičia - rodzice
+rodina - rodzina
+rodinný - rodzinny
+rodisko - miejsce urodzenia / ojczyzna
+rodiť - rodzić
+roh - róg
+rohož - mata
+rok - rok
+rokovanie - obrady
+rokovať - obradować
+rola - rola
+rolka - rolka
+rolník - rolnik
+román - powieść
+romantik - romantyk
+roniť - ronić
+ropa - ropa naftowa
+rosa - rosa
+rosol - galareta
+rošt - ruszt
+rota - rota / kompania
+rotácia - rotacja
+rovina - równina
+rovnako - równie
+rovnaký - jednakowy
+rovnať sa - równać się
+rovnováha - równowaga
+rovný - równy
+rozbor - analiza
+rozcestník - drogowskaz
+rozchod - rozstanie
+rozdeliť - rozdzielić
+rozdiel - różnica
+rozhľad - rozeznanie
+rozhlas - radio / węzeł
+rozhodca - sędzia
+rozhodnúť - zdecydować
+rozhodnutie - decyzja
+rozhodovať - decydować
+rozhorčenie - oburzenie
+rozhovor - rozmowa
+rozkaz - rozkaz
+rozklad - rozkład
+rozkoš - rozkosz
+rozlet - rozmach
+rozlúčka - pożegnanie
+rozmanitosť - różnorodność
+rozmár - kaprys
+rozmer - wymiar
+rozmiestniť - rozmieścić
+rozmnožiť - rozmnożyć
+rozmotať - rozplątać
+rôzny - różny
+rozoberať - rozbierać
+rozobrať - rozebrać
+rožok - bułka / rogala
+rozopnúť - rozpiąć
+rozpočet - budżet
+rozpor - sprzeczność
+rozpoznať - rozpoznać
+rozprava - rozprawa
+rozprávať - opowiadać
+rozprávať sa - rozmawiać
+rozprávka - bajka / baśń
+rozptyl - rozproszenie
+rozruch - rozruch / zamieszanie
+rozsah - zakres
+rozšíriť - rozszerzyć
+rozsudok - wyrok
+rozum - rozum
+rozumieť - rozumieć
+rozumný - rozumny
+rozvádzať - rozwodzić
+rozvaha - rozwaga
+rozvedený - rozwiedziony
+rozviesť - rozwodzić
+rozvoj - rozwój
+rozvrat - rozłam
+rozvrh - harmonogram
+rozvrh hodín - harmonogram
+rómsky - romski
+ručiť - ręczyć
+ručiteľ - poręczyciel
+ruka - ręka / dłoń
+rukáv - rękaw
+rukavica - rękawiczka
+rukavice - rękawice
+rukavička - rękawiczka
+rukopis - rękopis
+rukovať - iść do wojska
+rula - rula
+ruľa - rura
+rum - rum
+rumelka - cynober
+runda - runda
+rúra - piekarnik / rura
+rušeň - lokomotywa
+rušič - zagłuszacz
+rušiť - zakłócać
+rušivo - zakłócająco
+ruský - rosyjski
+rutina - rutyna
+ruža - róża
+ružovkastý - różowawy
+ružový - różowy
+rváč - zabijaka
+rvat - rwać
+ryba - ryba
+rýchlik - pociąg pośpieszny
+rýchlo - szybko
+rýchlosť - prędkość / szybkość
+rýchly - rýchly / szybki
+rýdzi - czysty
+rýdzky - rdzawy
+rýdzosť - czystość
+rýľ - szpadel
+rým - rym
+rypák - ryj
+rýpať - dłubać
+rys - ryś / rys
+ryšavý - rudy
+rysovanie - rysowanie
+ryť - ryć
+rytier - rycerz
+rytmus - rytm
+ryža - ryż
+šach - szachy
+sadra - gips
+sadza - sadza
+šafár - włodarz
+sako - marynarka
+šál - szal
+sála - sala
+salám - salami
+šalát - sałata / sałatka
+šálka - filiżanka
+šampón - szampon
+šanca - szansa
+sanitka - karetka
+šatňa - szatnia
+šaty - sukienka / ubrania
+schopnosť - zdolność
+schopný - zdolny
+schválne - specjalnie
+sedem - siedem
+sedemdesiat - siedemdziesiąt
+sedemnásť - siedemnaście
+sekunda - sekunda
+semafor - sygnalizacja świetlna
+semeno - nasiono
+september - wrzesień
+šesť - sześć
+šesťdesiat - sześćdziesiąt
+sesternica - kuzynka
+šestnásť - szesnaście
+sestra - siostra
+sieť - sieć
+signál - sygnał
+šikovný - sprytny / zręczny
+šípka - strzałka
+šírka - szerokość
+sivý - szary
+škaredý - brzydki
+sklad - magazyn
+sklamať - rozczarować
+sklo - szkło
+škodlivý - szkodliwy
+škola - szkoła
+školstvo - szkolnictwo
+škridla - dachówka
+skromný - skromny
+skrutka - śruba
+skrutkovač - śrubokręt
+skúsenosť - doświadczenie
+skúsený - doświadczony
+skúsiť - spróbować
+skúšobná kabínka - przymierzalnia
+skutočne - rzeczywiście
+skutočnosť - rzeczywistość
+skutočný - rzeczywisty
+slabý - słaby
+sladiť - słodzić
+sladký - słodki
+slaný - słony
+slimák - ślimak
+slnko - słońce
+sloboda - wolnosť / wolność
+slova - słowa
+slovník - słownik
+sluch - słuch
+slúchadlá - słuchawky
+služby - usługi
+smäd - pragnienie
+smädný - spragniony
+smažiť - smażyć
+sme - jesteśmy
+smelo - śmiało
+smeti - śmieci
+smetiar - śmieciarz
+smiať sa - śmiać się
+smiešny - śmieszny
+smutný - smutny
+smútok - smutek
+sneh - śnieg
+sobota - sobota
+socha - rzeźba
+soľ - sól
+soliť - solić
+sotva - ledwo
+spálňa - sypialnia
+spaľovanie - spalanie
+spať - spać
+späť - z powrotem
+špina - brud
+spínač - włącznik
+spisovateľ - pisarz
+spoľahlivý - niezawodny
+spoľahnúť sa - polegać na kimś
+spoločnosť - społeczeństwo
+spoločný - wspólny
+spolupráca - współpraca
+spomienka - wspomnienie
+šport - sport
+spotreba - konsumpcja
+správa - wiadomość
+správny - prawidłowy
+spravodlivosť - spravodlivosť / sprawiedliwość
+sprcha - prysznic
+srdce - serce
+stále - ciągle
+stanica - stacja
+stará mama - babcia
+starý - stary
+starý otec - dziadek
+šťastny - szczęśliwy
+šťastný - szczęśliwy
+stáť - kosztować
+štát - państwo
+stať sa - stać się
+stavba - budowa
+ste - jesteście
+stena - ściana
+stiahnuť - pobrać
+stierač - wycieraczka (samochodowa)
+stihnúť - zdążyć
+sto - sto
+stôl - stół
+stolička - krzesło
+strach - strach
+stránka - strona
+strata - strata
+strava - dieta / żywienie
+strecha - dach
+streda - środa
+stres - stres
+stretnúť - spotkać
+stretnúť sa - spotkać się
+stretnutie - spotkanie
+štrnásť - czternaście
+strom - drzewo
+strop - sufit
+strýko - wujek
+studňa - studnia
+štvorec - kwadrat
+štvrť - kwadrans
+štvrtok - czwartek
+štyri - cztery
+štyridsať - czterdzieści
+štyridsaťpäť - czterdzieści pięć
+sú - są
+súboj - pojedynek
+súbor - plik / zbiór
+súčasť - część / składnik
+sucho - susza
+súčiastka - część zamienna
+súd - sąd
+sudca - sędzia
+súhlas - zgoda
+súhlasiť - zgadzać się
+súhrn - podsumowanie
+sukňa - spódnica
+súkromný - prywatny
+šulec - wałek
+šum - szum
+súper - przeciwnik
+super - super
+šuplík - szuflada
+súprava - zestaw / skład
+súrny - pilny
+surový - surowy
+sused - sąsiad
+susedstvo - sąsiedztwo
+sústava - układ / system
+súťaž - zawody / konkurs
+súvislosť - związek / kontekst
+svadba - ślub
+svah - zbocze
+sval - mięsień
+svätý - święty
+svedok - świadek
+sveter - sweter
+svetlo - światło
+sviatok - święto
+sviečka - świeca
+svietiť - świecić
+svieži - świeży
+svinka - świnka
+svinstvo - świństwo
+svižný - dziarski
+svorka - klamra / wataha
+svrab - świerzb
+svrbieť - swędzieć
+syn - syn
+sypať - sypać
+syr - ser
+syra - ser
+sýty - syty
+tá - ta
+tabak - tytoń
+tábor - obóz
+tabuľa - tablica
+ťah - ruch / ciąg
+ťahať - ciągnąć
+tajíť - taić
+tajomný - tajemniczy
+tajomstvo - tajemnica
+tak - w przybliżeniu / tak
+takt - takt
+taktika - taktyka
+talent - talent
+taler - talerz
+taliansky - włoski
+talizman - talizman
+talo - talo
+tam - tam
+tamto - tamto
+tancovať - tańczyć
+tanec - taniec
+tanečník - tancerz
+tanier - talerz
+tapeta - tapeta
+tapioca - tapioka
+tasit - tasować / dobyć
+tati - tato
+tato - ten
+tatranka - wafel (tatranka)
+taviť - topić (metal)
+taxík - taksówka
+ťažký - ciężki / trudny
+technika - technika
+tehla - cegła
+tehlička - cegiełka
+tekutý - płynny
+telefón - telefon
+telenovela - telenowela
+teleskop - teleskop
+teleso - ciało (fizyczne)
+televízia - telewizja
+telo - ciało
+téma - temat
+temer - niemal
+temný - ciemny
+tempo - tempo
+tenis - tenis
+tenisky - tenisówki
+tenký - cienki
+tento - ten
+teória - teoria
+teplo - ciepło
+teplota - temperatura
+teraz - teraz
+terč - tarcza (cel)
+terén - teren
+termín - termin
+termoska - termos
+teror - terror
+tesár - cieśla
+tešiť sa - cieszyć się
+tesniť - uszczelniać
+tesný - ciasny
+test - test
+testament - testament
+teta - ciocia
+tetovanie - tatuaż
+textil - tekstylia
+téza - teza
+tiahnuť - ciągnąć
+ticho - cisza / cicho
+tichý - cichy
+tiecť - cieknąć / płynąć
+tieň - cień
+tím - zespół
+titul - tytuł
+tkanina - tkanina
+tkať - tkać
+tlačiareň - drukarka
+tlačidlo - przycisk
+tlačiť - pchać / drukować
+tlak - ciśnienie
+tlama - paszka / morda
+tlapa - łapa
+tĺcť - bić / tłuc
+tlmič - tłumik
+tlmiť - tłumić
+tlmočník - tłumacz (ustny)
+tlstý - gruby
+tlupa - banda / zgraja
+tma - ciemność
+tmavý - ciemny
+tmel - kit
+to - to
+To je super - To wspaniale
+To nie je problém - To nie jest problem
+To sa mi nepáči. - To mi się nie podoba.
+točiť - kręcić
+topánky - buty
+tovar - towar
+továreň - fabryka
+toxín - toksyna
+tradícia - tradycja
+traktor - traktor
+trám - belka
+tranzit - tranzyt
+trápny - żenujący
+trať - trasa / tor
+tráva - trawa
+tráviť - spędzać / trawić
+trávnik - trawnik
+trefa - trafienie
+tréner - trener
+tréning - trening
+trenírky - bokserki
+trest - kara
+trh - rynek / targ
+trhlina - pęknięcie
+trhnutie - szarpnięcie
+trhovisko - targowisko
+tri - trzy
+tri štvrte - trzy kwadranse
+triasť - trząść
+tribúna - trybuna
+tričko - koszulka / koszulka (T-shirt)
+tridsať - trzydzieści
+trieda - klasa
+trinásť - trzynaście
+tringelt - napiwek
+triumf - triumf
+tŕň - cierń
+trnavský - trnawski
+trno - cierń
+trocha - trochę
+trofej - trofeum
+trojka - trójka
+trojuholník - trójkąt
+troska - troska / wrak / ruina
+trpezlivo - cierpliwie
+trpezlivosť - cierpliwość
+trpezlivý - cierpliwy
+trpka - cierpka
+tŕpnuť - drętwieć
+trstina - trzcina
+trúba - piekarnik / trąba
+trubka - rura / trąbka
+truhlík - skrzynka (na kwiaty)
+trup - kadłub
+trvalý - trwały
+trvať - trwać
+tu - tutaj
+tučný - gruby (o człowieku / jedzeniu)
+tuhnúť - tężeć
+tuhý - sztywny / mocny
+tulák - włóczęga
+túlať sa - włóczyć się
+tuleň - foka
+tuna - tona
+tunel - tunel
+tupý - tępy
+turista - turysta
+turnaj - turniej
+tuš - tusz
+tušiť - przeczuwać
+túžba - pragnienie / tęsknota
+tuzemský - krajowy
+túžiť - pragnąć / tęsknić
+tvar - kształt
+tvár - twarz
+tvaroh - twaróg
+tvoj - twój
+tvor - stwór
+tvorba - twórczość
+tvoriť - tworzyć
+tvrdiť - twierdzić
+tvrdý - twardy
+ty - ty
+tyč - tyczka
+týkať sa - dotyczyć
+tyl - tył głowy
+typ - typ
+typický - typowy
+týrať - znęcać się
+týždeň - tydzień
+týždeń - tydzień
+u - przy / u
+u nás - u nas
+ubaviť - ująć
+ubehnúť - upłynąć
+ubehnutý - upłynięty
+ublížiť - skrzywdzić
+ubrať - ująć / zabrać
+ubrus - obrus
+učenec - uczony
+účet - rachunek
+ucho - ucho
+účinný - skuteczny
+účinok - efekt / działanie
+učiť - uczyć
+učiť sa - uczyć się
+učiteľ - nauczyciel
+úcta - szacunek
+uctiť - uczcić
+účtovník - księgowy
+udalosť - wydarzenie
+udať - podać / donieść
+úder - uderzenie
+udica - wędka
+údolie - dolina
+udrieť - uderzyć
+udusiť - udusić
+uhorka - ogórek
+uistiť - upewnić
+ujko - wujek
+ukázať - pokazać
+ukážka - pokaz / próbka
+ukľudniť - uspokoić
+ukončiť - zakończyć
+ukradnúť - ukraść
+úkryt - kryjówka
+ulica - ulica
+ulita - muszla
+úlovok - łup / zdobycz
+uložiť - zapisać / ułożyć
+ultimátum - ultimatum
+umelé - sztuczne
+umelec - artysta
+umenie - sztuka
+umrieť - umrzeć
+umyť - umyć
+umývadlo - umywalka
+únava - zmęczenie
+unavený - zmęczony
+úpadok - upadek
+upáliť - upalić
+upevniť - umocnić
+úplne - całkowicie
+úplný - pełny
+upokojiť - uspokoić
+upratovačka - sprzątaczka
+upratovať - sprzątać
+upraviť - poprawić / edytować
+úprimný - szczery
+urad - urząd
+urážka - obraza
+určiť - określić
+určite - zdecydowanie
+úroveň - poziom
+urputný - zawzięty
+urýchliť - przyspieszyć
+uši - uszy
+úsilie - wysiłek
+ušiť - uszyć
+ušľachtilý - szlachetny
+úsmev - uśmiech
+usmievať sa - uśmiechać się
+úspech - sukces
+úspešný - skuteczny
+uspokojiť - zadowolić
+ústa - usta
+ústav - instytut
+ústava - konstytucja
+ustúpiť - ustąpić
+úsvit - świt
+útecha - pociecha
+útek - ucieczka
+uterák - ręcznik
+útis - ucisk
+útočiť - atakować
+útočník - napastnik
+útok - atak
+utopiť - utopić
+utorok - wtorek
+utrieť - wytrzeć
+utrpenie - cierpienie
+utvoriť - utworzyć
+uvádzať - podawać / wprowadzać
+úvaha - rozwaga / felieton
+uvedomiť si - uświadomić sobie
+úver - kredyt
+uveriť - uwierzyć
+uvidieť - zobaczyć
+uviesť - podać / wprowadzić
+úvod - wstęp
+uvoľniť - uwolnić / poluzować
+už - już
+uzavrieť - zamknąć / zawrzeć
+územie - terytorium
+užitočný - pożyteczny
+úzky - wąski
+uznať - uznać
+uzol - węzeł
+v - w
+vábiť - wabić
+vada - wada
+vadiť - przeszkadzać
+vagon - wagon
+váha - waga
+vajce - jajko
+vajíčko - jajeczko
+vak - worek
+val - wał
+valec - walec
+valuta - waluta
+vám - wam
+vaňa - wanna
+vanda - wanda
+vandal - wandal
+vane - wieje
+vanička - wanienka
+vankúš - poduszka
+vápno - wapno
+varené - gotowane
+variť - gotować
+varovanie - ostrzeżenie
+vás - was
+váš - wasz
+vášeň - pasja
+vat - wat
+vatra - ognisko (wielkie)
+vaza - waza
+váza - waza
+väzeň - więzień
+väzenie - więzienie
+včas - w porę
+včela - pszczoła
+včera - wczoraj
+vchod - wejście
+vďaka - dzięki / wdzięczność
+vdova - wdowa
+večer - wieczór
+večera - kolacja
+večerať - jeść kolację
+večný - wieczny
+veda - nauka
+vedec - naukowiec
+vedenie - kierownictwo
+vedia - wiedzą
+vedieť - wiedzieć
+vedľa - obok
+vedomosť - wiedza
+vedro - wiadro
+vedúci - kierownik
+vegetarián - wegetarianin
+vejár - wachlarz
+veko - wieczko
+veľa - dużo
+veliteľ - dowódca
+veľkosť - wielkość
+veľký - duży
+veľmi - bardzo
+vena - żyła
+venovať - poświęcać
+ventil - zawór
+veranda - weranda
+verejný - publiczny
+veriť - wierzyć
+verný - wierny
+verš - wiersz
+veru - zaiste
+verzia - wersja
+vešať - wieszać
+veselý - wesoły
+vešiak - wieszak
+veslo - wiosło
+vesmír - wszechświat
+vesmírna loď - statek kosmiczny
+vesta - kamizelka
+vetranie - wietrzenie
+veža - wieża
+viac - więcej
+vianoce - boże narodzenie
+vibrácia - wibracja
+vice - wice
+vidiečan - wieśniak
+vidiek - wieś (region)
+vidieť - widzieć
+vidlička - widelec
+vie - wie
+viem - wiem
+vieme - wiemy
+vieš - wiesz
+viesť - prowadzić
+viete - wiecie
+vietor - wiatr
+víno - wino
+vitamín - witamina
+víťaz - zwycięzca
+víťazstvo - zwycięstwo
+víza - wiza
+vízia - wizja
+vklad - wkład
+vláda - rząd
+vlak - pociąg
+vlastenec - patriota
+vlastne - właściwie
+vlastníctwo - własność
+vlastnosť - cecha
+vlastný - własny
+vlasy - włosy
+vľavo - w lewo
+vlhkosť - wilgotność
+vlk - wilk
+vlna - fala / wełna
+vločka - płatek
+vložiť - włożyć
+vložiť peniaze - wpłacić pieniądze
+vnučka - vnučka
+vnuk - wnuk
+vôbec - w ogóle / wcale
+voda - woda
+vodca - wodz i
+vodič - kierowca
+vodík - wodór
+vodopád - wodospad
+vodováha - poziomica
+vodovod - wodociąg
+vojak - żołnierz
+vojna - wojna
+volant - kierownica
+volať - wołać / dzwonić
+voľba - wybór
+voľno - wolne (czas) / wolne
+voľný - wolny
+vôňa - zapach / zapach (ładny)
+vonku - na zewnątrz
+vosk - wosk
+vozidlo - pojazd
+voziť - wozić
+vplyv - wpływ
+vplyvný - wpływowy
+vpravo - w prawo
+vpustiť - wpuścić
+vrah - morderca
+vrana - wrona
+vrátiť - zwrócić / wrócić
+vrátnik - portier
+vražda - morderstwo
+vrch - wierzch / góra
+vrece - worek
+vrecko - kieszeń
+vrstva - warstwa
+vŕtačka - wiertarka
+vrtuľník - helikopter
+všade - wszędzie
+však - jednak
+všetci - wszyscy
+všetko - wszystko
+vstávať - wstawać
+vstup - wstęp
+vstupenka - bilet wstępu
+vstúpiť - wejść
+vták - ptak
+vtedy - wtedy
+vtip - żart
+vtipný - dowcipny
+vy - vy
+vyberať si - wybierać
+výborne - wspaniale
+vybrať peniaze - wypłacić pieniądze
+vybrať si - wybrać / wybrać sobie
+výbuch - wybuch
+východ - wschód
+výchova - výchova / wychowanie
+vydanie - wydanie
+výdrž - wytrzymałość
+vydržať - wytrzymać
+výfuk - wydech
+výhoda - przewaga / zaleta
+vyhrať - wygrać
+vyjednávať - negocjować
+výkon - wydajność / wynik / moc
+výlet - wycieczka
+vymazať - usunąć
+výmena - wymiana
+vymeniť - wymieniť / wymienić
+vynález - wynalazek
+výnimočnosť - wyjątkowość
+výnimočný - wyjątkowy
+výplata - wypłata
+vypnúť - wyłączyć
+vypredané - wyprzedane
+výraz - wyraz
+výrazne - wyraźnie
+výroba - produkcja
+výrobca - producent
+vyrobiť - wyprodukować
+výrobok - produkt
+vysávač - odkurzacz
+vysávať - odkurzać
+výška - wysokość
+výskum - badania
+vyskúšať si - przymierzyć si
+výsledok - wynik
+vysoký - wysoki
+výstava - wystawa
+vystúpić - wystąpić
+vysvedčenie - świadectwo
+vysvetliť - wyjaśnić
+výťah - winda
+vytiahnuť - wyciągnąć
+využiť - wykorzystać
+vývoj - rozwój
+vyzliekať si - zdejmować ubranie
+význam - znaczenie
+vyzúva si - zdejmować buty
+výzva - wyzwanie
+vzácny - cenny
+vzad - w tył
+vzdať sa - poddać się
+vzdelanie - wykształcenie
+vzdialenosť - odległość
+vzdialený - odległy
+vzduch - powietrze
+vždy - zawsze
+vzhľad - wygląd
+vziať - wziąć
+vznik - powstanie
+vzor - wzór
+vzorka - próbka
+vzťah - relacja
+vztlak - siła nośna
+WC - toaleta
+web - sieć
+wellness - wellness
+whisky - whisky
+windsurfing - windsurfing
+wok - wok
+xénia - xenia
+xerox - ksero
+xylofón - ksylofon
+yachting - żeglarstwo
+yoga - joga
+z - z
+za - za
+zabaliť - zapakować
+zabaviť - zabawić
+zabiť - zabić
+zabudnúť - zapomnieć
+záchod - toaleta
+záchrana - ratunek
+záchranár - ratownik
+začínať sa - zaczynać się
+záclona - firanka
+záhrada - ogród
+zákaz - zakaz
+Základňa - Baza
+zákon - prawo / ustawa
+žalúdok - żołądek
+zametať - zamiatać
+zámok - zamek (w drzwiach / budowla) / zamek
+zápach - smród / zapach
+zápal - zapalenie
+zápas - mecz
+zápcha - korek (drogowy) / korek
+zapnúť - włączyć
+zariadenie - urządzenie
+zásielka - przesyłka
+zásuvka - gniazdko / szuflada
+zaútočiť - zaatakować
+zavrieť - zamknąć
+zážitok - przeżycie / wrażenie
+zbraň - broń
+zbytočne - niepotrzebnie
+Zbytočný - Zbędny
+zdieľať - udostępnić
+zdravie - zdrowie
+zdravotníctwo - służba zdrowia
+zdravý - zdrowy
+zdroj - źródło
+žehlička - żelazko
+žehliť - prasować
+zelenina - warzywa
+zeleninová polievka - zupa jarzynowa
+zelený - zielony
+zemetrasenie - trzęsienie ziemi
+zemiaky - ziemniaki
+žemľa - bułka (okrągła)
+žiak - uczeń
+žiarenie - promieniowanie
+žiarlivosť - zazdrość
+žiarlivý - zazdrosny
+zima - zimno / zima
+zisk - zysk
+zľava - zniżka
+zle - źle
+zlodej - złodziej
+zložitý - złożony / skomplikowany
+žltý - żółty
+zlý - zły
+zmena - zmiana
+zmluva - umowa
+zmrzlina - lody
+známy - znany
+znova - znowu
+zodpovednosť - odpowiedzialność / zodpovednosť
+zošit - zeszyt
+zostať - zostać
+zrak - wzrok
+zrejmý - oczywisty
+zrkadlo - lustro
+zručnosť - umiejętność
+zub - ząb
+zubná kefka - szczoteczka do zębów
+zubná pasta - pasta do zębów
+zvedavosť - ciekawość
+zvedavý - ciekawski
+zvíťaziť - zwyciężyć
+zvláštny - dziwny / szczególny
+zvuk - dźwięk
+zvyčajne - zazwyczaj
+zvyk - zwyczaj
