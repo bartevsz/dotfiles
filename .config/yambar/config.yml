@@ -1,0 +1,54 @@
+---
+bar:
+  height: 40
+  location: top
+  spacing: 10
+  margin: 4
+
+  background: 0b111ad9
+  foreground: e2f1f8ff
+
+  font: monospace:size=14
+
+  left:
+    - label:
+        content:
+          string:
+            text: "audio"
+            foreground: 00f0d8ff
+
+  center:
+    - clock:
+        content:
+          - string:
+              text: "{date}"
+              font: monospace:size=12
+
+          - string:
+              text: "  |  "
+              foreground: 1e2d3bff
+
+          - string:
+              text: "{time}"
+              font: monospace:size=14
+              foreground: 00f0d8ff
+
+  right:
+    - network:
+        content:
+          string:
+            text: "{state} wlan0 "
+            foreground: ff5e00ff
+
+    - label:
+        content:
+          string:
+            text: "bt "
+
+    - battery:
+        name: BAT0
+        poll-interval: 300
+        content:
+          string:
+            text: "{capacity}%"
+            foreground: 00f0d8ff

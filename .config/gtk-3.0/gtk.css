@@ -1,0 +1,58 @@
+/* --- 1. BAZA (Tło i Tekst) --- */
+window, 
+.view, 
+treeview {
+    background-color: #0B111A;
+    color: #E2F1F8;
+}
+
+/* --- 2. PASEK BOCZNY --- */
+.sidebar {
+    background-color: #1E2D3B;
+    border-right: 1px solid #00F0D8;
+}
+
+/* --- 3. ZAZNACZENIA --- */
+.view:selected, 
+treeview:selected {
+    background-color: #00F0D8;
+    color: #0B111A;
+    border-radius: 4px;
+}
+
+/* --- 4. GÓRNE PASKI I MENU --- */
+headerbar, 
+.titlebar, 
+toolbar, 
+.toolbar, 
+menubar, 
+.menubar {
+    background-color: #0B111A;
+    color: #E2F1F8;
+    border: none;
+    box-shadow: none;
+}
+
+/* --- 5. PASEK ADRESU --- */
+entry {
+    background-color: #1E2D3B;
+    color: #E2F1F8;
+    border: 1px solid #1E2D3B;
+}
+
+entry:focus {
+    border-color: #00F0D8;
+}
+
+/* --- 6. ROZWIJANE MENU --- */
+menu, 
+.menu {
+    background-color: #0B111A;
+    color: #E2F1F8;
+    border: 1px solid #1E2D3B;
+}
+
+menuitem:hover {
+    background-color: #00F0D8;
+    color: #0B111A;
+}
