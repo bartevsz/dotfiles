@@ -70,6 +70,13 @@ vim.api.nvim_create_autocmd("BufEnter", {
   end,
 })
 
+-- pomocnicza funkcja kodowania URL (obsługa polskich znaków)
+local function url_encode(str)
+  return str:gsub("([^%w%-%.%_%~])", function(c)
+    return string.format("%%%02X", string.byte(c))
+  end)
+end
+
 -- live preview: pandoc przy każdym zapisie pliku .md
 vim.api.nvim_create_autocmd("BufWritePost", {
   pattern = "*.md",
@@ -84,17 +91,24 @@ vim.api.nvim_create_autocmd("BufWritePost", {
   end,
 })
 
--- przekieruj surf gdy zmieniasz plik w nvim
--- informuj serwer o aktywnym pliku
+-- przekieruj przeglądarkę przy zmianie pliku (generuj HTML najpierw)
 vim.api.nvim_create_autocmd("BufEnter", {
   pattern = "*.md",
   callback = function()
     local file = vim.api.nvim_buf_get_name(0)
     if file == "" then return end
     local basename = vim.fn.fnamemodify(file, ":t:r")
-    local encoded = basename:gsub(" ", "%%20")
+    local html_file = "/tmp/obsidian-preview/" .. basename .. ".html"
     vim.fn.jobstart({
-      "curl", "-s", "http://localhost:8080/switch/" .. encoded
-    }, { detach = true })
+      "pandoc", file, "-o", html_file,
+      "-s", "--mathjax", "--metadata", "title=" .. basename
+    }, {
+      on_exit = function()
+        local encoded = url_encode(basename)
+        vim.fn.jobstart({
+          "curl", "-s", "http://localhost:8080/switch/" .. encoded
+        }, { detach = true })
+      end
+    })
   end,
 })
