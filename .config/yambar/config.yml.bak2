@@ -22,7 +22,7 @@ bar:
                 - string:
                     text: "{date}"
                     font: Exo 2:size=20:weight=light
-                    foreground: 00FFFFff
+                    foreground: c5cdd4ff
                 - string:
                     text: " "
       - battery:
@@ -35,16 +35,16 @@ bar:
                   - ramp:
                      tag: capacity
                      items:
-                      - string: {text: "󰂃 {capacity}%", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰂃 {capacity}%", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰁼 {capacity}%", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰁽 {capacity}%", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰁾 {capacity}%", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰁿 {capacity}%", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰂀 {capacity}%", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰂁 {capacity}%", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰂂 {capacity}%", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰁹 {capacity}%", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
+                      - string: {text: 󰂃, foreground: c5cdd4ff}
+                      - string: {text: 󰂃, foreground: c5cdd4ff}
+                      - string: {text: 󰁼, foreground: c5cdd4ff}
+                      - string: {text: 󰁽, foreground: c5cdd4ff}
+                      - string: {text: 󰁾, foreground: c5cdd4ff}
+                      - string: {text: 󰁿, foreground: c5cdd4ff}
+                      - string: {text: 󰂀, foreground: c5cdd4ff}
+                      - string: {text: 󰂁, foreground: c5cdd4ff}
+                      - string: {text: 󰂂, foreground: c5cdd4ff}
+                      - string: {text: 󰁹, foreground: c5cdd4ff}
           content:
             map:
               conditions:
@@ -55,13 +55,13 @@ bar:
                 state == charging:
                   list:
                     items:
-                     - string: {text: "󰂄 "}
-                     - string: {text: "{capacity}%", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
+                     - string: {text: "󰂄", foreground: c5cdd4ff}
+                     - string: {text: "{capacity}% "}
                 state == full:
                  list:
                     items:
-                     - string: {text: "󱟢 ", foreground: c5cdd4ff}
-                     - string: {text: "FULL ", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
+                     - string: {text: 󱟢, foreground: c5cdd4ff}
+                     - string: {text: "FULL "}
 
   center:
     - clock:
@@ -69,8 +69,8 @@ bar:
         content:
           string:
             text: "{time}"
-            font: Exo 2:size=20:weight=light
-            foreground: 00FFFFff
+            font: VT323:size=28:weight=thin
+            foreground: c5cdd4ff
 
   left:
     - network:
