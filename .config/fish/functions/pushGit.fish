@@ -44,7 +44,7 @@ function pushGit --description 'Synchronizacja konfiguracji nvima i Obsidian z b
         set src $sources[$i]
         set dst $destinations[$i]
         if test -f $src
-            cp -y $src $dst
+            cp -f $src $dst
             echo "Załadowano: "(basename $src)
         else
             echo "Uwaga: brak pliku $src — pomijam."
