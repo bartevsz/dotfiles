@@ -21,6 +21,7 @@ function syncNvim --description 'Synchronizacja konfiguracji nvima i Obsidian z 
         ~/.config/fish/functions/omni.fish \
         ~/.config/fish/functions/broken.fish \
         ~/.config/fish/obsidian_server.py
+        ~/.config/fish/functions/midori-profiles.fish
 
     set -l destinations \
         $dotfiles/.config/nvim/init.lua \
@@ -34,6 +35,8 @@ function syncNvim --description 'Synchronizacja konfiguracji nvima i Obsidian z 
         $dotfiles/.config/fish/functions/omni.fish \
         $dotfiles/.config/fish/functions/broken.fish \
         $dotfiles/.config/fish/obsidian_server.py
+        $dotfiles/.config/fish/functions/midori-profiles.fish
+        
 
     # Przygotowanie lądowisk
     mkdir -p $dotfiles/.config/nvim
