@@ -1,4 +1,4 @@
-function syncNvim --description 'Synchronizacja konfiguracji nvima i Obsidian z bazą dotfiles oraz push na Git'
+function pushGit --description 'Synchronizacja konfiguracji nvima i Obsidian z bazą dotfiles oraz push na Git'
     set -l dotfiles ~/dotfiles
     set -l errors 0
 
