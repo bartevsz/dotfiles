@@ -34,7 +34,7 @@ function syncNvim --description 'Synchronizacja konfiguracji nvima i Obsidian z 
         $dotfiles/.config/fish/functions/daily.fish \
         $dotfiles/.config/fish/functions/omni.fish \
         $dotfiles/.config/fish/functions/broken.fish \
-        $dotfiles/.config/fish/obsidian_server.py
+        $dotfiles/.config/fish/obsidian_server.py \
         $dotfiles/.config/fish/functions/midori-profiles.fish
         
 
