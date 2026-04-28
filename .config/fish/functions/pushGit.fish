@@ -1,4 +1,4 @@
-function pushGit --description 'Synchronizacja konfiguracji nvima i Obsidian z bazą dotfiles oraz push na Git'
+function pushGit --description 'Synchronizacja konfiguracji z bazą dotfiles oraz push na Git'
     set -l dotfiles ~/dotfiles
     set -l errors 0
 
@@ -8,43 +8,34 @@ function pushGit --description 'Synchronizacja konfiguracji nvima i Obsidian z b
         return 1
     end
 
-    # Mapa ładunków: źródło -> cel
-    set -l sources \
-        ~/.config/nvim/init.lua \
-        ~/.config/fish/functions/obsidian.fish \
-        ~/.config/fish/functions/syncNvim.fish \
-        ~/.config/fish/functions/radar.fish \
-        ~/.config/fish/functions/links.fish \
-        ~/.config/fish/functions/tasks.fish \
-        ~/.config/fish/functions/daily.fish \
-        ~/.config/fish/functions/omni.fish \
-        ~/.config/fish/functions/broken.fish \
-        ~/.config/fish/obsidian_server.py \
-        ~/.config/fish/functions/midori-profiles.fish
-
-    set -l destinations \
-        $dotfiles/.config/nvim/init.lua \
-        $dotfiles/.config/fish/functions/obsidian.fish \
-        $dotfiles/.config/fish/functions/syncNvim.fish \
-        $dotfiles/.config/fish/functions/radar.fish \
-        $dotfiles/.config/fish/functions/links.fish \
-        $dotfiles/.config/fish/functions/tasks.fish \
-        $dotfiles/.config/fish/functions/daily.fish \
-        $dotfiles/.config/fish/functions/omni.fish \
-        $dotfiles/.config/fish/functions/broken.fish \
-        $dotfiles/.config/fish/obsidian_server.py \
-        $dotfiles/.config/fish/functions/midori-profiles.fish
-
     # Przygotowanie lądowisk
     mkdir -p $dotfiles/.config/nvim
     mkdir -p $dotfiles/.config/fish/functions
 
-    # Transport ładunków do bazy
-    for i in (seq (count $sources))
-        set src $sources[$i]
-        set dst $destinations[$i]
+    # === ŁADUNEK 1: init.lua ===
+    set -l nvim_src ~/.config/nvim/init.lua
+    if test -f $nvim_src
+        cp -f $nvim_src $dotfiles/.config/nvim/init.lua
+        echo "Załadowano: init.lua"
+    else
+        echo "Uwaga: brak pliku $nvim_src — pomijam."
+        set errors (math $errors + 1)
+    end
+
+    # === ŁADUNEK 2: obsidian_server.py ===
+    set -l server_src ~/.config/fish/obsidian_server.py
+    if test -f $server_src
+        cp -f $server_src $dotfiles/.config/fish/obsidian_server.py
+        echo "Załadowano: obsidian_server.py"
+    else
+        echo "Uwaga: brak pliku $server_src — pomijam."
+        set errors (math $errors + 1)
+    end
+
+    # === ŁADUNEK 3: wszystkie funkcje fish ===
+    for src in ~/.config/fish/functions/*.fish
         if test -f $src
-            cp -f $src $dst
+            cp -f $src $dotfiles/.config/fish/functions/(basename $src)
             echo "Załadowano: "(basename $src)
         else
             echo "Uwaga: brak pliku $src — pomijam."
@@ -59,35 +50,31 @@ function pushGit --description 'Synchronizacja konfiguracji nvima i Obsidian z b
         echo "Wszystkie jednostki załadowane. Przystępuję do transmisji Git..."
     end
 
-    # ==========================================
-    # ZINTEGROWANY MODUŁ PUSH GIT
-    # ==========================================
+    # === MODUŁ GIT PUSH ===
     set -l current_dir (pwd)
     set -l is_dotfiles false
-    
+
     if not git rev-parse --is-inside-work-tree >/dev/null 2>&1
         echo "Skipper, znajdujemy się w sektorze cywilnym! Przekierowuję współrzędne prosto do bazy ~/dotfiles..."
         cd ~/dotfiles
         set is_dotfiles true
     end
-    
+
     git add .
-    
+
     if test (count $argv) -eq 0
         git commit -m "Aktualizacja konfiguracji nvim + Obsidian"
     else
         git commit -m "$argv"
     end
-    
-    # Wystrzelenie na serwer i przechwycenie statusu
+
     git push
     set -l push_status $status
-    
+
     if test "$is_dotfiles" = "true"
         cd $current_dir
     end
-    
-    # Prawdziwy system weryfikacji sukcesu
+
     if test $push_status -eq 0
         set_color green
         echo "Operacja zakończona pełnym sukcesem, Szefie!"
