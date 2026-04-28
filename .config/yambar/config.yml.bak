@@ -10,7 +10,7 @@ bar:
   font: Exo 2:size=20:weight=thin
   right-margin: 16
   left-margin: 16
-  background: 11111155
+  background: 11111100
   foreground: c5cdd4ff
 
   right:

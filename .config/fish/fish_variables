@@ -2,4 +2,4 @@
 # VERSION: 3.0
 SETUVAR __fish_initialized:4300
 SETUVAR fish_greeting:
-SETUVAR --export fish_user_paths:/usr/local/bin\x1e/sbin\x1e/home/mb/\x2espicetify
+SETUVAR --export fish_user_paths:/usr/bin\x1e/usr/local/bin\x1e/sbin\x1e/home/mb/\x2espicetify
