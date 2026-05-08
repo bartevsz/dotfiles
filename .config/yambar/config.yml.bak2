@@ -10,21 +10,30 @@ bar:
   font: Exo 2:size=20:weight=thin
   right-margin: 16
   left-margin: 16
-  background: 11111166
+  background: 11111155
   foreground: c5cdd4ff
 
   right:
-      - clock:
-          date-format: "%A, %d/%m/%Y"
-          content:
-            list:
-              items:
-                - string:
-                    text: "{date}"
-                    font: Exo 2:size=20:weight=light
-                    foreground: c5cdd4ff
-                - string:
-                    text: " "
+    - script:
+        path: /home/mb/.config/yambar/scripts/brightness_vu.fish
+        poll-interval: 200
+        content:
+          string:
+            text: "{brightness}"
+            font: Exo 2:size=22:weight=light
+            foreground: 00FFFFff
+
+    - clock:
+        date-format: "%A, %d/%m/%Y"
+        content:
+          list:
+            items:
+              - string:
+                  text: "{date}"
+                  font: Exo 2:size=22:weight=light
+                  foreground: 00FFFFff
+              - string:
+                  text: " "
       - battery:
           name: BAT0
           poll-interval: 1000
@@ -35,16 +44,16 @@ bar:
                   - ramp:
                      tag: capacity
                      items:
-                      - string: {text: 󰂃, foreground: c5cdd4ff}
-                      - string: {text: 󰂃, foreground: c5cdd4ff}
-                      - string: {text: 󰁼, foreground: c5cdd4ff}
-                      - string: {text: 󰁽, foreground: c5cdd4ff}
-                      - string: {text: 󰁾, foreground: c5cdd4ff}
-                      - string: {text: 󰁿, foreground: c5cdd4ff}
-                      - string: {text: 󰂀, foreground: c5cdd4ff}
-                      - string: {text: 󰂁, foreground: c5cdd4ff}
-                      - string: {text: 󰂂, foreground: c5cdd4ff}
-                      - string: {text: 󰁹, foreground: c5cdd4ff}
+                      - string: {text: "󰂃 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                      - string: {text: "󰂃 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                      - string: {text: "󰁼 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                      - string: {text: "󰁽 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                      - string: {text: "󰁾 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                      - string: {text: "󰁿 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                      - string: {text: "󰂀 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                      - string: {text: "󰂁 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                      - string: {text: "󰂂 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                      - string: {text: "󰁹 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
           content:
             map:
               conditions:
@@ -55,13 +64,13 @@ bar:
                 state == charging:
                   list:
                     items:
-                     - string: {text: "󰂄", foreground: c5cdd4ff}
-                     - string: {text: "{capacity}% "}
+                     - string: {text: "󰂄 "}
+                     - string: {text: "{capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
                 state == full:
                  list:
                     items:
-                     - string: {text: 󱟢, foreground: c5cdd4ff}
-                     - string: {text: "FULL "}
+                     - string: {text: "󱟢 ", foreground: c5cdd4ff}
+                     - string: {text: "FULL ", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
 
   center:
     - clock:
@@ -69,8 +78,8 @@ bar:
         content:
           string:
             text: "{time}"
-            font: VT323:size=28:weight=thin
-            foreground: c5cdd4ff
+            font: Exo 2:size=22:weight=light
+            foreground: 00FFFFff
 
   left:
     - network:
@@ -85,13 +94,13 @@ bar:
                       list:
                         items:
                           - string: {text: "NET: ", foreground: c5cdd4ff}
-                          - string: {text: "({ipv4})", foreground: c5cdd4ff}
+                          - string: {text: "({ipv4})", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
                           - string: {text: " | ", foreground: 777777ff}
                     state == down:
                       list:
                         items:
                           - string: {text: "NET: ", foreground: c5cdd4ff}
-                          - string: {text: "OFF", foreground: c5cdd4ff}
+                          - string: {text: "OFF", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
                           - string: {text: " | ", foreground: 777777ff}
 
     - script:
@@ -101,7 +110,7 @@ bar:
           list:
             items:
               - string: {text: "CPU: ", foreground: c5cdd4ff}
-              - string: {text: "{load}% {freq} MHz {temp}°C", foreground: c5cdd4ff}
+              - string: {text: "{load}% {freq} MHz ({temp}°C)", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
               - string: {text: " | ", foreground: 777777ff}
 
     - script:
@@ -111,7 +120,7 @@ bar:
           list:
             items:
               - string: {text: "SND: ", foreground: c5cdd4ff}
-              - string: {text: "{vol_state}", foreground: c5cdd4ff}
+              - string: {text: "{vol_state}", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
               - string: {text: " | ", foreground: 777777ff}
 
     - disk-io:
@@ -123,5 +132,5 @@ bar:
                 list:
                   items:
                     - string: {text: "DSK: ", foreground: c5cdd4ff}
-                    - string: {text: "R:{read_speed:mib}MB/s W:{write_speed:mib}MB/s", foreground: c5cdd4ff}
+                    - string: {text: "R:{read_speed:mib}MB/s W:{write_speed:mib}MB/s", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
                     - string: {text: " | ", foreground: 777777ff}
