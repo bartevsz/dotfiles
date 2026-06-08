@@ -1,6 +1,6 @@
 function update --description 'System Update (DNF, Flatpak, Spicetify)'
     echo "󰚰 Aktualizacja Flatpak..."
-    sudo flatpak update -y
+    flatpak update -y
 
     echo "󰏖 Aktualizacja DNF..."
     sudo dnf update -y
