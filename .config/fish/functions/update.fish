@@ -1,16 +1,12 @@
-function update --description 'System Update (DNF, Flatpak, Spicetify)'
-    echo "󰚰 Aktualizacja Flatpak..."
-    flatpak update -y
+function update --description 'System Update (Alpine + Distrobox + Spicetify)'
+    echo "󰚰 Aktualizacja Alpine..."
+    doas apk upgrade
 
-    echo "󰏖 Aktualizacja DNF..."
-    sudo dnf update -y
-
-    echo "󰌆 Naprawa uprawnień Spotify..."
-	sudo chmod a+wr /var/lib/flatpak/app/com.spotify.Client/current/active/files/extra/share/spotify/ -R/Apps -R
+    echo "󰏖 Aktualizacja kontenerów Distrobox..."
+    distrobox upgrade --all
 
     echo "󰎄 Spicetify update..."
-    spicetify update
+    distrobox enter spotify -- spicetify update
 
     echo "󰄬 Gotowe."
-    cleanup
 end

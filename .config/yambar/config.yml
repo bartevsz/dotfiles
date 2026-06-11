@@ -26,7 +26,7 @@ bar:
               - string:
                   text: ""                  
 #    - script:
-#            path: /home/mb/.config/yambar/scripts/brightness_vu.fish
+#            path: /home/mateuszb/.config/yambar/scripts/brightness_vu.fish
 #            poll-interval: 1000
 #            content:
 #              list:
@@ -104,7 +104,7 @@ bar:
                           - string: {text: " | ", foreground: 777777ff}
 
     - script:
-        path: /home/mb/.config/yambar/scripts/cpu_info.fish
+        path: /home/mateuszb/.config/yambar/scripts/cpu_info.fish
         poll-interval: 2000
         content:
           list:
@@ -114,7 +114,7 @@ bar:
               - string: {text: " | ", foreground: 777777ff}
 
     - script:
-        path: /home/mb/.config/yambar/scripts/vol_db.fish
+        path: /home/mateuszb/.config/yambar/scripts/vol_db.fish
         poll-interval: 1000
         content:
           list:
