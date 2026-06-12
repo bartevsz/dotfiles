@@ -1,21 +1,25 @@
 #!/usr/bin/fish
-
 while true
     if command -sq amixer
-        # Pobieramy linię dla głównego kanału
-        set info (amixer sget Master | grep -m1 "Front Left:")
+        set info (amixer sget Master | string match -r '\[\d+%\].*')
         
-        # Wyciągamy wartość z drugiego nawiasu (procenty)
-        set vol (echo $info | awk -F'[][]' '{print $2}')
-        
-        # Sprawdzamy, czy nie jest wyciszone [off]
-        # Używamy zmiennej vol_state, by nie drażnić fisha słowem 'status'
-        set vol_state (echo $info | grep -q "\[off\]"; and echo "MUTE"; or echo "$vol")
-        
-        echo "vol_state|string|$vol_state"
+        if test -n "$info"
+            # Wyciągamy procenty i stan [on/off] za pomocą wbudowanego regexa
+            set vol (string match -r '\d+%' $info)
+            set state (string match -r '\[on\]|\[off\]' $info)
+
+            if test "$state" = "[off]"
+                echo "vol_state|string|MUTE"
+            else
+                echo "vol_state|string|$vol"
+            end
+        else
+            echo "vol_state|string|ERR"
+        end
     else
         echo "vol_state|string|ERR"
     end
     echo ""
     sleep 1
 end
+
