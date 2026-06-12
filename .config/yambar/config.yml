@@ -22,8 +22,8 @@ anchors:
     - &font_icon  "JetBrainsMono Nerd Font:style=Regular:pixelsize=16"
 
 bar:
-  height: 34
-  location: top
+  height: 44
+  location: bottom
   layer: bottom
   background: *bg
   foreground: *fg
