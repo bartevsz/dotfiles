@@ -1,136 +1,125 @@
----
-icon: &icon Material Design Icons:style=Regular:pixelsize=18
-tags: &tags Material Design Icons:style=Regular:pixelsize=22
+# ==============================================================================
+# PROJEKT ERGONOMICZNEGO PANELU STATUSU (YAMBAR)
+# Ścieżka pliku: $HOME/.config/yambar/config.yml
+# Zoptymalizowany pod kątem redukcji obciążenia poznawczego (Cognitive Load Theory)
+# ==============================================================================
 
+# SEKCJA DEKLARACJI GLOBALNYCH I KOTWIC (ANCHORS)
+# Zapobiega redundantnym wpisom i ułatwia modyfikację parametrów wizualnych [2, 3, 35]
+
+metadane_projektu:
+  standard_ergonomii: "ISO-9241-110"
+  wersja_struktury: "1.0.0"
+
+stale_wizualne:
+  # Paleta kolorów w formacie RRGGBBAA (RGBA Hexstring) 
+  paleta_barw:
+    tlo_breeze_dark:    &tlo_bg   181818ff  # Głęboki, grafitowy odcień neutralny dla siatkówki 
+    tekst_breeze_light:  &tekst_fg eff0f1ff  # Spójny, jasny odcień tekstu z KDE Plasma 
+    akcent_cosmic_blue: &akcent   51a2daff  # "New Fedora Blue" o wysokim współczynniku kontrastu 
+    nieaktywny_szary:   &ciemny   888b90ff  # Stonowana szarość dla elementów drugorzędnych [39]
+    ostrzezenie_red:    &alarm    ff0000ff  # Jaskrawa czerwień sygnalizacyjna dla sytuacji krytycznych 
+
+  # Definicje typograficzne wspierające kodowanie podwójne (Dual Coding Theory) [4, 33, 38]
+  fonty:
+    glowny_sans: &font_tekst "Noto Sans:pixelsize=11:weight=bold"
+    ikony_fa:    &font_ikony "Font Awesome 6 Free:style=solid:pixelsize=11"
+
+# WŁAŚCIWA SEKCJA KONFIGURACYJNA PANELU (BAR) [24, 33, 38]
 bar:
-  height: 27
-  location: top
-  layer: bottom
-  spacing: 5
-  font: Exo 2:size=20:weight=thin
-  right-margin: 16
-  left-margin: 16
-  background: 11111155
-  foreground: c5cdd4ff
+  height: 28                                 # Wysokość panelu gwarantująca czytelność bez marnowania przestrzeni 
+  location: bottom                           # Dolne położenie paska - zgodność z modelem mentalnym Anduin OS 
+  background: *tlo_bg
+  foreground: *tekst_fg
+  font: *font_tekst
+  layer: bottom                              # Umiejscowienie w warstwie tła pod oknami aplikacji (Wayland) 
+  
+  # Marginesy i przestrzenie wewnętrzne (inspirowane gęstością COSMIC) 
+  spacing: 12                                # Odstępy między modułami w pikselach 
+  left-margin: 10
+  right-margin: 10
 
-  right:
-    - clock:
-        date-format: "%A, %d/%m/%Y"
-        content:
-          list:
-            items:
-              - string:
-                  text: "{date}"
-                  font: Exo 2:size=22:weight=light
-                  foreground: 00FFFFff
-              - string:
-                  text: ""                  
-#    - script:
-#            path: /home/mateuszb/.config/yambar/scripts/brightness_vu.fish
-#            poll-interval: 1000
-#            content:
-#              list:
-#                items:
-#                  - string: {text: "", foreground: c5cdd4ff}
-#                  - string: {text: "{brightness}", font: Exo 2:size=20:weight=light}
-#                  - string: {text: "", foreground: 777777ff}                  
-    - battery:
-        name: BAT0
-        poll-interval: 1000
-        anchors:
-          discharging: &discharging
-            list:
-              items:
-                - ramp:
-                   tag: capacity
-                   items:
-                    - string: {text: "󰂃 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                    - string: {text: "󰂃 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                    - string: {text: "󰁼 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                    - string: {text: "󰁽 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                    - string: {text: "󰁾 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                    - string: {text: "󰁿 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                    - string: {text: "󰂀 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                    - string: {text: "󰂁 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                    - string: {text: "󰂂 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                    - string: {text: "󰁹 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-        content:
-          map:
-            conditions:
-              state == unknown:
-                <<: *discharging
-              state == discharging:
-                <<: *discharging
-              state == charging:
-                list:
-                  items:
-                   - string: {text: "󰂄 "}
-                   - string: {text: "{capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-              state == full:
-                list:
-                  items:
-                   - string: {text: "󱟢 ", foreground: c5cdd4ff}
-                   - string: {text: "FULL ", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-
-  center:
-    - clock:
-        time-format: "%H:%M:%S"
-        content:
-          string:
-            text: "{time}"
-            font: Exo 2:size=22:weight=light
-            foreground: 00FFFFff
-
+  # LEWY PANEL: Zarządzanie obszarami roboczymi (Sway / Hyprland Workspaces) [5, 24, 33]
   left:
+    - i3:                                    # Obsługa przestrzeni roboczych i3/Sway [24, 36]
+        content:
+          map:                               # Wykorzystanie mapy stanów w celu redukcji obciążenia wzroku [35]
+            conditions:
+              focused:                       # Aktywny pulpit roboczy - wyraźne wyróżnienie kolorem akcentu
+                string:
+                  text: " {name}"          # Kodowanie podwójne: ikona oraz nazwa pulpitu [4, 24]
+                  font: *font_ikony
+                  foreground: *akcent
+                  right-margin: 6
+              visible:                       # Pulpit widoczny na innym monitorze
+                string:
+                  text: " {name}"
+                  font: *font_ikony
+                  foreground: *tekst_fg
+                  right-margin: 6
+              unfocused:                     # Pulpity nieaktywne - wygaszone, nieprzyciągające uwagi
+                string:
+                  text: " {name}"
+                  font: *font_ikony
+                  foreground: *ciemny
+                  right-margin: 6
+
+  # ŚRODKOWY PANEL: Spójność czasowo-przestrzenna (Zegar i kalendarz) [24, 33]
+  center:
+    - clock:                                 # Standardowy moduł czasu i daty [24, 36]
+        content:
+          - string: 
+              text: " "                     # Zastosowanie spójnych piktogramów [24]
+              font: *font_ikony
+              foreground: *akcent
+          - string: 
+              text: "{time}  "               # Wyświetlanie aktualnego czasu 
+              right-margin: 12
+          - string: 
+              text: " "
+              font: *font_ikony
+              foreground: *akcent
+          - string: 
+              text: "{date}"                 # Wyświetlanie daty ułatwia orientację czasową [24]
+
+  # PRAWY PANEL: Progresywne ujawnianie parametrów fizycznych (Stan systemu) [4, 24, 33]
+  right:
+    # Moduł Baterii - monitorowanie zasilania bez ciągłego odpytywania (redukcja zasobów CPU i uwagi) 
+    - battery:
+        name: BAT0                           # Nazwa urządzenia odczytywana z /sys/class/power_supply [40]
+        poll-interval: 30000                 # Odpytywanie co 30 sekund w celu oszczędzania baterii [40]
+        content:
+          map:                               # Dynamiczne dopasowanie prezentacji do stanu rzeczywistego [35, 40]
+            conditions:
+              state == charging:             # Stan ładowania zasilaczem
+                string:
+                  text: " {capacity}% ({estimate})"  # Precyzyjny szacowany czas do napełnienia [40]
+                  font: *font_ikony
+                  foreground: *akcent
+              state == discharging:          # Stan rozładowywania baterii
+                string:
+                  text: " {capacity}% ({estimate})"  # Szacowany czas do rozładowania baterii [40]
+                  font: *font_ikony
+                  foreground: *tekst_fg
+              state == unknown:              # Stan przejściowy (np. naładowanie ~90% i wstrzymanie poboru) [40]
+                string:
+                  text: " {capacity}%"
+                  font: *font_ikony
+                  foreground: *ciemny
+
+    # Moduł Sieciowy - status połączenia bezprzewodowego [24, 35]
     - network:
-        poll-interval: 1000
+        name: wlan0                          # Nazwa interfejsu sieciowego
         content:
           map:
             conditions:
-              name == wlan0:
-                map:
-                  conditions:
-                    state == up:
-                      list:
-                        items:
-                          - string: {text: "NET: ", foreground: c5cdd4ff}
-                          - string: {text: "({ipv4})", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
-                          - string: {text: " | ", foreground: 777777ff}
-                    state == down:
-                      list:
-                        items:
-                          - string: {text: "NET: ", foreground: c5cdd4ff}
-                          - string: {text: "OFF", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
-                          - string: {text: " | ", foreground: 777777ff}
-
-    - script:
-        path: /home/mateuszb/.config/yambar/scripts/cpu_info.fish
-        poll-interval: 2000
-        content:
-          list:
-            items:
-              - string: {text: "CPU: ", foreground: c5cdd4ff}
-              - string: {text: "{load}% {freq} MHz ({temp}°C)", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
-              - string: {text: " | ", foreground: 777777ff}
-
-    - script:
-        path: /home/mateuszb/.config/yambar/scripts/vol_db.fish
-        poll-interval: 1000
-        content:
-          list:
-            items:
-              - string: {text: "SND: ", foreground: c5cdd4ff}
-              - string: {text: "{vol_state}", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
-              - string: {text: " | ", foreground: 777777ff}
-
-    - disk-io:
-        poll-interval: 1000
-        content:
-          map:
-            conditions:
-              device == nvme0n1:
-                list:
-                  items:
-                    - string: {text: "DSK: ", foreground: c5cdd4ff}
-                    - string: {text: "R:{read_speed:mib}MB/s W:{write_speed:mib}MB/s", font: Exo 2:size=20:weight=light, foreground: c5cdd4ff}
-                    - string: {text: " | ", foreground: 777777ff}
+              state == down:                 # Sieć rozłączona - brak zbędnych szczegółów, czysty komunikat
+                string:
+                  text: ""
+                  font: *font_ikony
+                  foreground: *ciemny
+              state == up:                   # Sieć aktywna
+                string:
+                  text: " {ssid}"
+                  font: *font_ikony
+                  foreground: *tekst_fg

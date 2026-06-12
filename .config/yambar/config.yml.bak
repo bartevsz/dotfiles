@@ -10,58 +10,67 @@ bar:
   font: Exo 2:size=20:weight=thin
   right-margin: 16
   left-margin: 16
-  background: 11111100
+  background: 11111155
   foreground: c5cdd4ff
 
   right:
-      - clock:
-          date-format: "%A, %d/%m/%Y"
-          content:
+    - clock:
+        date-format: "%A, %d/%m/%Y"
+        content:
+          list:
+            items:
+              - string:
+                  text: "{date}"
+                  font: Exo 2:size=22:weight=light
+                  foreground: 00FFFFff
+              - string:
+                  text: ""                  
+#    - script:
+#            path: /home/mateuszb/.config/yambar/scripts/brightness_vu.fish
+#            poll-interval: 1000
+#            content:
+#              list:
+#                items:
+#                  - string: {text: "", foreground: c5cdd4ff}
+#                  - string: {text: "{brightness}", font: Exo 2:size=20:weight=light}
+#                  - string: {text: "", foreground: 777777ff}                  
+    - battery:
+        name: BAT0
+        poll-interval: 1000
+        anchors:
+          discharging: &discharging
             list:
               items:
-                - string:
-                    text: "{date}"
-                    font: Exo 2:size=22:weight=light
-                    foreground: 00FFFFff
-                - string:
-                    text: " "
-      - battery:
-          name: BAT0
-          poll-interval: 1000
-          anchors:
-            discharging: &discharging
-              list:
-                items:
-                  - ramp:
-                     tag: capacity
-                     items:
-                      - string: {text: "󰂃 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰂃 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰁼 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰁽 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰁾 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰁿 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰂀 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰂁 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰂂 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                      - string: {text: "󰁹 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-          content:
-            map:
-              conditions:
-                state == unknown:
-                  <<: *discharging
-                state == discharging:
-                  <<: *discharging
-                state == charging:
-                  list:
-                    items:
-                     - string: {text: "󰂄 "}
-                     - string: {text: "{capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
-                state == full:
-                 list:
-                    items:
-                     - string: {text: "󱟢 ", foreground: c5cdd4ff}
-                     - string: {text: "FULL ", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                - ramp:
+                   tag: capacity
+                   items:
+                    - string: {text: "󰂃 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                    - string: {text: "󰂃 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                    - string: {text: "󰁼 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                    - string: {text: "󰁽 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                    - string: {text: "󰁾 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                    - string: {text: "󰁿 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                    - string: {text: "󰂀 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                    - string: {text: "󰂁 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                    - string: {text: "󰂂 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+                    - string: {text: "󰁹 {capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+        content:
+          map:
+            conditions:
+              state == unknown:
+                <<: *discharging
+              state == discharging:
+                <<: *discharging
+              state == charging:
+                list:
+                  items:
+                   - string: {text: "󰂄 "}
+                   - string: {text: "{capacity}%", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
+              state == full:
+                list:
+                  items:
+                   - string: {text: "󱟢 ", foreground: c5cdd4ff}
+                   - string: {text: "FULL ", font: Exo 2:size=22:weight=light, foreground: c5cdd4ff}
 
   center:
     - clock:
@@ -95,7 +104,7 @@ bar:
                           - string: {text: " | ", foreground: 777777ff}
 
     - script:
-        path: /home/mb/.config/yambar/scripts/cpu_info.fish
+        path: /home/mateuszb/.config/yambar/scripts/cpu_info.fish
         poll-interval: 2000
         content:
           list:
@@ -105,7 +114,7 @@ bar:
               - string: {text: " | ", foreground: 777777ff}
 
     - script:
-        path: /home/mb/.config/yambar/scripts/vol_db.fish
+        path: /home/mateuszb/.config/yambar/scripts/vol_db.fish
         poll-interval: 1000
         content:
           list:

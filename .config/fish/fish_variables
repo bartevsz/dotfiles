@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export DISTROBOX_CONTAINER_MANAGER:docker
 SETUVAR --export MOZ_ENABLE_WAYLAND:1
 SETUVAR __fish_initialized:4300
 SETUVAR fish_greeting:
