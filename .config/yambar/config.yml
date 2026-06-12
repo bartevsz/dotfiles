@@ -1,125 +1,254 @@
 # ==============================================================================
-# PROJEKT ERGONOMICZNEGO PANELU STATUSU (YAMBAR)
-# Ścieżka pliku: $HOME/.config/yambar/config.yml
-# Zoptymalizowany pod kątem redukcji obciążenia poznawczego (Cognitive Load Theory)
+# ARCHITEKTURA INFORMACJI: ERGONOMICZNY PANEL YAMBAR
 # ==============================================================================
 
-# SEKCJA DEKLARACJI GLOBALNYCH I KOTWIC (ANCHORS)
-# Zapobiega redundantnym wpisom i ułatwia modyfikację parametrów wizualnych [2, 3, 35]
+anchors:
+  colors:
+    - &bg       101417FF
+    - &fg       E0E0E0FF
+    - &primary  55CDAFFF
+    - &accent   F5644BFF
+    - &warning  FAD282FF
+    - &info     196E82FF
+    - &danger   D23250FF
+    - &muted    909090FF
 
-metadane_projektu:
-  standard_ergonomii: "ISO-9241-110"
-  wersja_struktury: "1.0.0"
+  spacing_and_margins:
+    - &mod_space 16
+    - &in_space  6
 
-stale_wizualne:
-  # Paleta kolorów w formacie RRGGBBAA (RGBA Hexstring) 
-  paleta_barw:
-    tlo_breeze_dark:    &tlo_bg   181818ff  # Głęboki, grafitowy odcień neutralny dla siatkówki 
-    tekst_breeze_light:  &tekst_fg eff0f1ff  # Spójny, jasny odcień tekstu z KDE Plasma 
-    akcent_cosmic_blue: &akcent   51a2daff  # "New Fedora Blue" o wysokim współczynniku kontrastu 
-    nieaktywny_szary:   &ciemny   888b90ff  # Stonowana szarość dla elementów drugorzędnych [39]
-    ostrzezenie_red:    &alarm    ff0000ff  # Jaskrawa czerwień sygnalizacyjna dla sytuacji krytycznych 
+  fonts:
+    - &font_main  "JetBrainsMono Nerd Font:style=Regular:pixelsize=14"
+    - &font_icon  "JetBrainsMono Nerd Font:style=Regular:pixelsize=16"
 
-  # Definicje typograficzne wspierające kodowanie podwójne (Dual Coding Theory) [4, 33, 38]
-  fonty:
-    glowny_sans: &font_tekst "Noto Sans:pixelsize=11:weight=bold"
-    ikony_fa:    &font_ikony "Font Awesome 6 Free:style=solid:pixelsize=11"
-
-# WŁAŚCIWA SEKCJA KONFIGURACYJNA PANELU (BAR) [24, 33, 38]
 bar:
-  height: 28                                 # Wysokość panelu gwarantująca czytelność bez marnowania przestrzeni 
-  location: bottom                           # Dolne położenie paska - zgodność z modelem mentalnym Anduin OS 
-  background: *tlo_bg
-  foreground: *tekst_fg
-  font: *font_tekst
-  layer: bottom                              # Umiejscowienie w warstwie tła pod oknami aplikacji (Wayland) 
-  
-  # Marginesy i przestrzenie wewnętrzne (inspirowane gęstością COSMIC) 
-  spacing: 12                                # Odstępy między modułami w pikselach 
-  left-margin: 10
-  right-margin: 10
+  height: 34
+  location: top
+  layer: bottom
+  background: *bg
+  foreground: *fg
+  font: *font_main
+  spacing: *mod_space
+  left-margin: 14
+  right-margin: 14
 
-  # LEWY PANEL: Zarządzanie obszarami roboczymi (Sway / Hyprland Workspaces) [5, 24, 33]
   left:
-    - i3:                                    # Obsługa przestrzeni roboczych i3/Sway [24, 36]
+    - i3:
+        sort: native
+        strip-workspace-numbers: true
         content:
-          map:                               # Wykorzystanie mapy stanów w celu redukcji obciążenia wzroku [35]
-            conditions:
-              focused:                       # Aktywny pulpit roboczy - wyraźne wyróżnienie kolorem akcentu
-                string:
-                  text: " {name}"          # Kodowanie podwójne: ikona oraz nazwa pulpitu [4, 24]
-                  font: *font_ikony
-                  foreground: *akcent
-                  right-margin: 6
-              visible:                       # Pulpit widoczny na innym monitorze
-                string:
-                  text: " {name}"
-                  font: *font_ikony
-                  foreground: *tekst_fg
-                  right-margin: 6
-              unfocused:                     # Pulpity nieaktywne - wygaszone, nieprzyciągające uwagi
-                string:
-                  text: " {name}"
-                  font: *font_ikony
-                  foreground: *ciemny
-                  right-margin: 6
+          "":
+            map:
+              conditions:
+                state == focused:
+                  list:
+                    spacing: *in_space
+                    items:
+                      - string: {text: "󰝥", font: *font_icon, foreground: *accent}
+                      - string: {text: "{name}", foreground: *fg}
+                urgent:
+                  list:
+                    spacing: *in_space
+                    items:
+                      - string: {text: "󰀨", font: *font_icon, foreground: *danger}
+                      - string: {text: "{name}", foreground: *danger}
+                default:
+                  list:
+                    spacing: *in_space
+                    items:
+                      - string: {text: "󰝦", font: *font_icon, foreground: *muted}
+                      - string: {text: "{name}", foreground: *muted}
 
-  # ŚRODKOWY PANEL: Spójność czasowo-przestrzenna (Zegar i kalendarz) [24, 33]
-  center:
-    - clock:                                 # Standardowy moduł czasu i daty [24, 36]
-        content:
-          - string: 
-              text: " "                     # Zastosowanie spójnych piktogramów [24]
-              font: *font_ikony
-              foreground: *akcent
-          - string: 
-              text: "{time}  "               # Wyświetlanie aktualnego czasu 
-              right-margin: 12
-          - string: 
-              text: " "
-              font: *font_ikony
-              foreground: *akcent
-          - string: 
-              text: "{date}"                 # Wyświetlanie daty ułatwia orientację czasową [24]
-
-  # PRAWY PANEL: Progresywne ujawnianie parametrów fizycznych (Stan systemu) [4, 24, 33]
-  right:
-    # Moduł Baterii - monitorowanie zasilania bez ciągłego odpytywania (redukcja zasobów CPU i uwagi) 
-    - battery:
-        name: BAT0                           # Nazwa urządzenia odczytywana z /sys/class/power_supply [40]
-        poll-interval: 30000                 # Odpytywanie co 30 sekund w celu oszczędzania baterii [40]
-        content:
-          map:                               # Dynamiczne dopasowanie prezentacji do stanu rzeczywistego [35, 40]
-            conditions:
-              state == charging:             # Stan ładowania zasilaczem
-                string:
-                  text: " {capacity}% ({estimate})"  # Precyzyjny szacowany czas do napełnienia [40]
-                  font: *font_ikony
-                  foreground: *akcent
-              state == discharging:          # Stan rozładowywania baterii
-                string:
-                  text: " {capacity}% ({estimate})"  # Szacowany czas do rozładowania baterii [40]
-                  font: *font_ikony
-                  foreground: *tekst_fg
-              state == unknown:              # Stan przejściowy (np. naładowanie ~90% i wstrzymanie poboru) [40]
-                string:
-                  text: " {capacity}%"
-                  font: *font_ikony
-                  foreground: *ciemny
-
-    # Moduł Sieciowy - status połączenia bezprzewodowego [24, 35]
-    - network:
-        name: wlan0                          # Nazwa interfejsu sieciowego
+    - foreign-toplevel:
         content:
           map:
             conditions:
-              state == down:                 # Sieć rozłączona - brak zbędnych szczegółów, czysty komunikat
-                string:
-                  text: ""
-                  font: *font_ikony
-                  foreground: *ciemny
-              state == up:                   # Sieć aktywna
-                string:
-                  text: " {ssid}"
-                  font: *font_ikony
-                  foreground: *tekst_fg
+              activated:
+                list:
+                  spacing: 12
+                  items:
+                    - string: {text: "│", foreground: *muted}
+                    - string: {text: "󰖯", font: *font_icon, foreground: *info}
+                    - string: {text: "{app-id}", foreground: *fg}
+
+  center:
+    - clock:
+        time-format: "%H:%M"
+        date-format: "%A, %d %b %Y"
+        content:
+          list:
+            spacing: *mod_space
+            items:
+              - list:
+                  spacing: *in_space
+                  items:
+                    - string: {text: "󰥔", font: *font_icon, foreground: *accent}
+                    - string: {text: "{time}", foreground: *fg}
+              - list:
+                  spacing: *in_space
+                  items:
+                    - string: {text: "󰃭", font: *font_icon, foreground: *accent}
+                    - string: {text: "{date}", foreground: *fg}
+
+  right:
+    - cpu:
+        poll-interval: 2000
+        content:
+          map:
+            conditions:
+              id == -1:
+                map:
+                  conditions:
+                    cpu > 85:
+                      list:
+                        spacing: *in_space
+                        items:
+                          - string: {text: "󰻠", font: *font_icon, foreground: *danger}
+                          - string: {text: "{cpu}%", foreground: *danger}
+                    cpu > 60:
+                      list:
+                        spacing: *in_space
+                        items:
+                          - string: {text: "󰻠", font: *font_icon, foreground: *warning}
+                          - string: {text: "{cpu}%", foreground: *fg}
+                    default:
+                      list:
+                        spacing: *in_space
+                        items:
+                          - string: {text: "󰻠", font: *font_icon, foreground: *primary}
+                          - string: {text: "{cpu}%", foreground: *fg}
+
+    - mem:
+        poll-interval: 3000
+        content:
+          map:
+            conditions:
+              percent > 85:
+                list:
+                  spacing: *in_space
+                  items:
+                    - string: {text: "󰍛", font: *font_icon, foreground: *danger}
+                    - string: {text: "{used:gb}GB", foreground: *danger}
+              percent > 70:
+                list:
+                  spacing: *in_space
+                  items:
+                    - string: {text: "󰍛", font: *font_icon, foreground: *warning}
+                    - string: {text: "{used:gb}GB", foreground: *fg}
+              default:
+                list:
+                  spacing: *in_space
+                  items:
+                    - string: {text: "󰍛", font: *font_icon, foreground: *primary}
+                    - string: {text: "{used:gb}GB", foreground: *fg}
+
+    - script:
+        path: ~/.config/yambar/scripts/disk_io.fish
+        poll-interval: 2000
+        content:
+          list:
+            spacing: *in_space
+            items:
+              - string: {text: "󰋊", font: *font_icon, foreground: *primary}
+              - string: {text: "{read}", foreground: *fg}
+
+    - label:
+        content:
+          string: {text: "│", font: *font_icon, foreground: *muted}
+
+    - pipewire:
+        content:
+          map:
+            conditions:
+              type == "sink":
+                map:
+                  conditions:
+                    muted:
+                      list:
+                        spacing: *in_space
+                        items:
+                          - string: {text: "󰖁", font: *font_icon, foreground: *muted}
+                          - string: {text: "Wyciszenie", foreground: *muted}
+                    ~muted:
+                      list:
+                        spacing: *in_space
+                        items:
+                          - string: {text: "󰕾", font: *font_icon, foreground: *info}
+                          - string: {text: "{linear_volume}%", foreground: *fg}
+
+    - network:
+        poll-interval: 4000
+        content:
+          map:
+            default: {empty: {}}
+            conditions:
+              name == "wlan0":
+                map:
+                  conditions:
+                    state == down:
+                      list:
+                        spacing: *in_space
+                        items:
+                          - string: {text: "󰤭", font: *font_icon, foreground: *muted}
+                          - string: {text: "Offline", foreground: *muted}
+                    state == up:
+                      map:
+                        conditions:
+                          ipv4 == "":
+                            list:
+                              spacing: *in_space
+                              items:
+                                - string: {text: "󰤯", font: *font_icon, foreground: *warning}
+                                - string: {text: "Łączenie...", foreground: *warning}
+                          default:
+                            list:
+                              spacing: *in_space
+                              items:
+                                - string: {text: "󰤨", font: *font_icon, foreground: *info}
+                                - string: {text: "{ssid}", foreground: *fg}
+                    default:
+                      list:
+                        spacing: *in_space
+                        items:
+                          - string: {text: "󰤫", font: *font_icon, foreground: *muted}
+                          - string: {text: "...", foreground: *muted}
+
+    - battery:
+        name: BAT0
+        poll-interval: 30000
+        content:
+          map:
+            conditions:
+              state == charging:
+                list:
+                  spacing: *in_space
+                  items:
+                    - string: {text: "󰂄", font: *font_icon, foreground: *primary}
+                    - string: {text: "{capacity}%", foreground: *primary}
+              state == discharging:
+                map:
+                  conditions:
+                    capacity < 15:
+                      list:
+                        spacing: *in_space
+                        items:
+                          - string: {text: "󰂃", font: *font_icon, foreground: *danger}
+                          - string: {text: "{capacity}%", foreground: *danger}
+                    capacity < 30:
+                      list:
+                        spacing: *in_space
+                        items:
+                          - string: {text: "󰁻", font: *font_icon, foreground: *warning}
+                          - string: {text: "{capacity}%", foreground: *fg}
+                    default:
+                      list:
+                        spacing: *in_space
+                        items:
+                          - string: {text: "󰁹", font: *font_icon, foreground: *info}
+                          - string: {text: "{capacity}%", foreground: *fg}
+              default:
+                list:
+                  spacing: *in_space
+                  items:
+                    - string: {text: "󰁹", font: *font_icon, foreground: *muted}
+                    - string: {text: "{capacity}%", foreground: *fg}
