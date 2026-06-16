@@ -1,0 +1,9 @@
+# Cywilny profile
+# Real containers.json stays outside git.
+
+[profile]
+name = "cywilny"
+purpose = "private, daily browsing"
+
+[containers]
+policy = "sanitized manifest only; no real container names required"

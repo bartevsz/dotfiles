@@ -16,3 +16,25 @@ __pycache__/
 .env
 *.key
 *.pem
+
+# Firefox/Floorp private profile data
+logins.json
+key4.db
+cookies.sqlite
+places.sqlite
+formhistory.sqlite
+permissions.sqlite
+sessionstore.jsonlz4
+recovery.jsonlz4
+storage/
+cache2/
+startupCache/
+startupCache.*
+datareporting/
+crashes/
+minidumps/
+weave/
+safebrowsing/
+OfflineCache/
+*.sqlite-wal
+*.sqlite-shm

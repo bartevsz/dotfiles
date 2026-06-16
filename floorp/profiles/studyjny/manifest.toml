@@ -1,0 +1,9 @@
+# Studyjny profile
+# Real containers.json stays outside git.
+
+[profile]
+name = "studyjny"
+purpose = "study, work search, projects"
+
+[containers]
+policy = "sanitized manifest only; no real container names required"
