@@ -1,0 +1,18 @@
+# temporary files
+tmp.*
+*.bak
+*.bak2
+*.log
+
+# editor/project junk
+.vscode/
+.idea/
+
+# cache
+.cache/
+__pycache__/
+
+# secrets
+.env
+*.key
+*.pem

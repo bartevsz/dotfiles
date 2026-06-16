@@ -1,0 +1,58 @@
+# --- [GHOSTTY: CYBERPUNK NOIR v2] ---
+
+# FONT (Ciasny, techniczny)
+font-family = "JetBrainsMono Nerd Font"
+font-size = 13
+adjust-cell-height = 20%
+
+# MROK (Zamiast szarości i różu)
+# Głęboka czerń, nie granat.
+background = #232D3F
+foreground = #55CDAF
+background-opacity = 0.80
+selection-background = #55CDAF
+selection-foreground = #AACCD6
+
+background-image = ~/dotfiles/wallpapers/ghostty-bg.png
+background-image-opacity = 0.04
+background-image-position = center
+background-image-fit = cover
+cursor-opacity = 0.5
+cursor-style = underline
+cursor-style-blink = true
+
+# UI (Minimalizm)
+window-padding-x = 12
+window-padding-y = 12
+window-decoration = false
+gtk-titlebar = false
+
+# PALETA (High Contrast Neon)
+# Zero różowego ścieku. Tylko ostre, techniczne kolory.
+palette-generate = false
+palette = 0=#232F72
+palette = 1=#FF204E
+palette = 2=#AACCD6
+palette = 3=#232F72
+palette = 4=#66FF99
+palette = 5=#4647AE
+palette = 6=#AACCD6
+palette = 7=#FFF57E
+palette = 8=#EC6A75
+palette = 9=#ff3366
+palette = 10=#66ff99
+palette = 11=#ffcc66
+palette = 12=#66aaff
+palette = 13=#ff66ff
+palette = 14=#66ffff
+palette = 15=#ffffff
+
+# KURSOR
+cursor-style = block
+cursor-color = #00ff41
+cursor-text = #050505
+
+# BEHAWIOR
+shell-integration = detect
+term = xterm-ghostty
+copy-on-select = true
