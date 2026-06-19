@@ -1,4 +1,5 @@
 aardvark-dns
+abiword
 abseil-cpp-base
 abseil-cpp-city
 abseil-cpp-debugging-internal
@@ -89,7 +90,6 @@ cairo
 cairo-gobject
 cairomm
 catatonit
-cava
 cdparanoia-libs
 cfdisk
 chrony
@@ -112,6 +112,7 @@ dbus
 dbus-daemon-launch-helper
 dbus-libs
 dbus-openrc
+desktop-file-utils
 device-mapper-libs
 device-mapper-udev
 dialog
@@ -122,6 +123,7 @@ doas
 docker
 docker-cli
 docker-cli-buildx
+docker-cli-compose
 docker-engine
 docker-fish-completion
 docker-openrc
@@ -137,10 +139,13 @@ efivar-libs
 elogind
 elogind-common
 elogind-openrc
+enchant2-libs
 eudev
 eudev-libs
 eudev-openrc
 exiv2-libs
+exo
+exo-libs
 faac
 faad2-libs
 fastfetch
@@ -184,11 +189,13 @@ glycin-image-rs
 glycin-svg
 gmime
 gmp
+gnumeric
 gnupg-dirmngr
 gnupg-gpgconf
 gnupg-keyboxd
 gnutls
 gobject-introspection
+goffice
 gpg
 gpg-agent
 gpgme
@@ -206,6 +213,7 @@ gst-plugins-base
 gstreamer
 gstreamer-ptp-helper
 gtk+3.0
+gtk-layer-shell
 gtk-update-icon-cache
 gtk4-layer-shell
 gtk4.0
@@ -230,7 +238,6 @@ ifupdown-ng-wifi
 imath
 inih
 inih-inireader
-iniparser
 iptables
 iptables-openrc
 iso-codes
@@ -287,6 +294,7 @@ libelf
 libelogind
 libepoxy
 libevdev
+libexif
 libexpat
 libfdisk
 libffi
@@ -300,6 +308,8 @@ libgcrypt
 libglycin
 libgomp
 libgpg-error
+libgsf
+libgtop
 libgudev
 libheif
 libheif-aom
@@ -337,6 +347,7 @@ libndp
 libnftnl
 libnl3
 libnm
+libnotify
 libogg
 libpanelw
 libpciaccess
@@ -387,6 +398,9 @@ libxcvt
 libxdamage
 libxdmcp
 libxext
+libxfce4panel
+libxfce4ui
+libxfce4util
 libxfixes
 libxfont2
 libxft
@@ -401,6 +415,7 @@ libxmu
 libxrandr
 libxrender
 libxshmfence
+libxslt
 libxt
 libxtables
 libxtst
@@ -541,10 +556,16 @@ pugixml
 pulseaudio-utils
 py3-argcomplete
 py3-argcomplete-pyc
+py3-cairo
+py3-cairo-pyc
 py3-click
 py3-click-pyc
 py3-colorama
 py3-colorama-pyc
+py3-gobject3
+py3-gobject3-atspi
+py3-gobject3-atspi-pyc
+py3-gobject3-pyc
 py3-packaging
 py3-packaging-pyc
 py3-parsing
@@ -583,8 +604,6 @@ runuser
 sbc
 scanelf
 sdbus-cpp
-sdl2-compat
-sdl3
 seatd
 seatd-openrc
 serd-libs
@@ -611,6 +630,7 @@ spotify-player
 sqlite-libs
 sratom
 ssl_client
+startup-notification
 stow
 swaybg
 swaybg-openrc
@@ -618,6 +638,7 @@ systemd-boot
 systemd-efistub
 talloc
 tdb-libs
+thunar
 tiff
 tini-static
 tlp
@@ -665,6 +686,7 @@ wl-clipboard
 wl-clipboard-fish-completion
 wpa_supplicant
 wpa_supplicant-openrc
+wv
 x265-libs
 xcb-util
 xcb-util-cursor
@@ -680,6 +702,7 @@ xdg-desktop-portal-openrc
 xdg-document-portal
 xdg-document-portal-openrc
 xdg-utils
+xfconf
 xkbcomp
 xkeyboard-config
 xorg-server-common
