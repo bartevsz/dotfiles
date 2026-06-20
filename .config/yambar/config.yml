@@ -18,13 +18,13 @@ anchors:
     - &in_space  6
 
   fonts:
-    - &font_main  "JetBrainsMono Nerd Font:style=Regular:pixelsize=14"
+    - &font_main  "Genos:style=Regular:pixelsize=20"
     - &font_icon  "JetBrainsMono Nerd Font:style=Regular:pixelsize=16"
 
 bar:
-  height: 44
-  location: bottom
-  layer: bottom
+  height: 40
+  location: top
+  layer: top
   background: *bg
   foreground: *fg
   font: *font_main

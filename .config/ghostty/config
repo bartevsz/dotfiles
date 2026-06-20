@@ -1,20 +1,20 @@
 # --- [GHOSTTY: CYBERPUNK NOIR v2] ---
 
 # FONT (Ciasny, techniczny)
-font-family = "JetBrainsMono Nerd Font"
+font-family = "Prompt"
 font-size = 13
-adjust-cell-height = 20%
-
+adjust-cell-height = 5%
+adjust-cell-width = -33%
 # MROK (Zamiast szarości i różu)
 # Głęboka czerń, nie granat.
-background = #232D3F
+background = #1A0A0E
 foreground = #55CDAF
 background-opacity = 0.80
 selection-background = #55CDAF
 selection-foreground = #AACCD6
 
 background-image = ~/dotfiles/wallpapers/ghostty-bg.png
-background-image-opacity = 0.04
+background-image-opacity = 0.0067
 background-image-position = center
 background-image-fit = cover
 cursor-opacity = 0.5
