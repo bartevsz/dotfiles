@@ -189,7 +189,6 @@ bar:
                               text: "VOL"
                               font: *font_small
                               foreground: *muted
-                              on-click: "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
                           - string: {text: "mute", font: *font_small, foreground: *muted}
                     ~muted:
                       list:
@@ -199,10 +198,6 @@ bar:
                               text: "VOL"
                               font: *font_small
                               foreground: *primary
-                              on-click:
-                                left: "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
-                                wheel-up: "wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%+"
-                                wheel-down: "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
                           - string: {text: "{linear_volume}%", font: *font_small, foreground: *fg}
 
     - network:
