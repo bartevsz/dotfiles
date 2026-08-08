@@ -24,6 +24,7 @@
       "format": "\u001b[1;38;2;85;205;175mSTRATEGICZNY TERMINAL OPERACYJNY\u001b[0m",
       "key": " "
     },
+    "break",
     {
       "type": "custom",
       "format": "\u001b[38;2;245;100;75msystem\u001b[0m \u001b[90m────────────────────────────────────\u001b[0m",
@@ -31,23 +32,23 @@
     },
     {
       "type": "os",
-      "key": "  \u001b[38;2;85;205;175m\u001b[0m"
+      "key": "  \u001b[38;2;85;205;175m OS    \u001b[0m"
     },
     {
       "type": "kernel",
-      "key": "  \u001b[38;2;250;210;130m\u001b[0m"
+      "key": "  \u001b[38;2;250;210;130m KERNEL\u001b[0m"
     },
     {
       "type": "wm",
-      "key": "  \u001b[38;2;25;110;130m\u001b[0m"
+      "key": "  \u001b[38;2;25;110;130m WM    \u001b[0m"
     },
     {
       "type": "terminal",
-      "key": "  \u001b[38;2;210;50;80m\u001b[0m"
+      "key": "  \u001b[38;2;210;50;80m TERM  \u001b[0m"
     },
     {
       "type": "shell",
-      "key": "  \u001b[38;2;245;100;75m󰈺\u001b[0m"
+      "key": "  \u001b[38;2;245;100;75m󰈺 SHELL \u001b[0m"
     },
     "break",
     {
@@ -57,36 +58,46 @@
     },
     {
       "type": "cpu",
-      "key": "  \u001b[38;2;250;210;130m󰻠\u001b[0m"
+      "key": "  \u001b[38;2;250;210;130m󰻠 CPU   \u001b[0m"
     },
     {
       "type": "gpu",
-      "key": "  \u001b[38;2;250;210;130m󰢮\u001b[0m",
+      "key": "  \u001b[38;2;250;210;130m󰢮 GPU   \u001b[0m",
       "format": "{2}"
     },
     {
       "type": "display",
-      "key": "  \u001b[38;2;25;110;130m󰍹\u001b[0m"
+      "key": "  \u001b[38;2;25;110;130m󰍹 DISP  \u001b[0m"
     },
     {
       "type": "memory",
-      "key": "  \u001b[38;2;210;50;80m󰍛\u001b[0m"
+      "key": "  \u001b[38;2;210;50;80m󰍛 RAM   \u001b[0m"
     },
     {
       "type": "disk",
-      "key": "  \u001b[38;2;250;210;130m󰋊\u001b[0m",
+      "key": "  \u001b[38;2;250;210;130m󰋊 ROOT  \u001b[0m",
       "folders": "/",
-      "format": "{1} / {2} ({4}) [LUKS+BTRFS]"
+      "format": "{1} / {2} ({4}) [TMPFS]"
     },
     {
       "type": "disk",
-      "key": "  \u001b[38;2;250;210;130m󰋊\u001b[0m",
-      "folders": "/efi",
-      "format": "{1} / {2} ({4}) [ESP]"
+      "key": "  \u001b[38;2;250;210;130m󰋊 DATA  \u001b[0m",
+      "folders": "/home",
+      "format": "{1} / {2} [LUKS2·BTRFS]"
+    },
+    {
+      "type": "command",
+      "key": "  \u001b[38;2;210;50;80m󰍛 SWAP  \u001b[0m",
+      "text": "awk 'NR==2 {printf \"%.1f GiB / %.1f GiB (%.0f%%)\", $4/1048576, $3/1048576, ($3 ? $4/$3*100 : 0)}' /proc/swaps"
+    },
+    {
+      "type": "command",
+      "key": "  \u001b[38;2;210;50;80m󰍛 ZSWAP \u001b[0m",
+      "text": "printf '%s · max %s%% RAM' \"$(cat /sys/module/zswap/parameters/compressor)\" \"$(cat /sys/module/zswap/parameters/max_pool_percent)\""
     },
     {
       "type": "battery",
-      "key": "  \u001b[38;2;245;100;75m󰁹\u001b[0m"
+      "key": "  \u001b[38;2;245;100;75m󰁹 BAT   \u001b[0m"
     },
     "break",
     {
@@ -94,22 +105,21 @@
       "format": "\u001b[38;2;245;100;75mworkspace\u001b[0m \u001b[90m─────────────────────────────────\u001b[0m",
       "key": " "
     },
-    "break",
     {
       "type": "compiler",
-      "key": "  \u001b[38;2;85;205;175mGCC\u001b[0m"
+      "key": "  \u001b[38;2;85;205;175m GCC   \u001b[0m"
     },
     {
       "type": "command",
-      "key": "  \u001b[38;2;250;210;130mMUSL\u001b[0m",
+      "key": "  \u001b[38;2;250;210;130m󰣖 MUSL  \u001b[0m",
       "text": "strings /lib/libc.musl-x86_64.so.1 2>/dev/null | grep -o 'musl libc [0-9.]*' | head -1"
     },
-{
+    {
       "type": "command",
-      "key": "  \u001b[38;2;25;110;130m󰡨\u001b[0m",
+      "key": "  \u001b[38;2;25;110;130m󰡨 DBOX  \u001b[0m",
       "text": "c=$(distrobox list --no-color 2>/dev/null | awk 'NR>1 {print $3}'); test -n \"$c\" && echo \"$c\" || echo 'Brak'"
-    },    
-      "break",
+    },
+    "break",
     {
       "type": "colors",
       "symbol": "square",
