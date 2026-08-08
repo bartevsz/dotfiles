@@ -77,23 +77,23 @@
       "type": "disk",
       "key": "  \u001b[38;2;250;210;130m󰋊 ROOT  \u001b[0m",
       "folders": "/",
-      "format": "{1} / {2} ({4}) [TMPFS]"
+      "format": "{size-used} / {size-total} ({size-percentage}) [TMPFS]"
     },
     {
       "type": "disk",
       "key": "  \u001b[38;2;250;210;130m󰋊 DATA  \u001b[0m",
       "folders": "/home",
-      "format": "{1} / {2} [LUKS2·BTRFS]"
+      "format": "{size-used} / {size-total} [LUKS2·BTRFS]"
     },
     {
-      "type": "command",
+      "type": "swap",
       "key": "  \u001b[38;2;210;50;80m󰍛 SWAP  \u001b[0m",
-      "text": "awk 'NR==2 {printf \"%.1f GiB / %.1f GiB (%.0f%%)\", $4/1048576, $3/1048576, ($3 ? $4/$3*100 : 0)}' /proc/swaps"
+      "format": "{used} / {total} ({percentage})"
     },
     {
       "type": "command",
       "key": "  \u001b[38;2;210;50;80m󰍛 ZSWAP \u001b[0m",
-      "text": "printf '%s · max %s%% RAM' \"$(cat /sys/module/zswap/parameters/compressor)\" \"$(cat /sys/module/zswap/parameters/max_pool_percent)\""
+      "text": "printf '%s · zużycie: %s' \"$(cat /sys/module/zswap/parameters/compressor)\" \"$(awk '/^Zswap:/ {printf \"%.1f MiB\", $2/1024}' /proc/meminfo)\""
     },
     {
       "type": "battery",
@@ -112,7 +112,7 @@
     {
       "type": "command",
       "key": "  \u001b[38;2;250;210;130m󰣖 MUSL  \u001b[0m",
-      "text": "strings /lib/libc.musl-x86_64.so.1 2>/dev/null | grep -o 'musl libc [0-9.]*' | head -1"
+      "text": "v=$(strings /lib/libc.musl-x86_64.so.1 2>/dev/null | grep -o 'musl libc [0-9.]*' | head -1); printf '%s\\n' \"${v:-Nie wykryto}\""
     },
     {
       "type": "command",
