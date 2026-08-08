@@ -1,28 +1,31 @@
 # ==============================================================================
-# ERGONOMICZNY PANEL YAMBAR
+# YAMBAR — readable / balanced / T14s 1920x1080
 # ==============================================================================
 
 anchors:
   colors:
-    - &bg       101417FF
-    - &fg       E0E0E0FF
-    - &primary  55CDAFFF
-    - &accent   F5644BFF
-    - &warning  FAD282FF
-    - &info     196E82FF
-    - &danger   D23250FF
-    - &muted    909090FF
+    bg:      &bg      0B111AFF
+    bg2:     &bg2     121A23FF
+    fg:      &fg      E2F1F8FF
+    muted:   &muted   7F8A96FF
+    primary: &primary 00D8C3FF
+    accent:  &accent  FF6A2AFF
+    warning: &warning FAD282FF
+    danger:  &danger  D94A64FF
 
-  spacing_and_margins:
-    - &mod_space 16
-    - &in_space  6
+  spacing:
+    module: &mod_space 10
+    inner:  &in_space  5
 
   fonts:
-    - &font_main  "Genos:style=Regular:pixelsize=20"
-    - &font_icon  "JetBrainsMono Nerd Font:style=Regular:pixelsize=16"
+    main:  &font_main  "Genos:style=Regular:pixelsize=16"
+    small: &font_small "JetBrainsMono Nerd Font:style=Regular:pixelsize=13"
+    icon:  &font_icon  "JetBrainsMono Nerd Font:style=Regular:pixelsize=14"
+    time:  &font_time  "Genos:style=Regular:pixelsize=22"
+    date:  &font_date  "Genos:style=Regular:pixelsize=21"
 
 bar:
-  height: 40
+  height: 38
   location: top
   layer: top
   background: *bg
@@ -32,6 +35,9 @@ bar:
   left-margin: 14
   right-margin: 14
 
+  # --------------------------------------------------------------------------
+  # LEWO — workspace + aktywna aplikacja
+  # --------------------------------------------------------------------------
   left:
     - i3:
         sort: native
@@ -39,26 +45,25 @@ bar:
         content:
           "":
             map:
-              # POPRAWKA: state == focused/urgent/unfocused, nie bool 'urgent'
               default:
-                list:
-                  spacing: *in_space
-                  items:
-                    - string: {text: "󰝦", font: *font_icon, foreground: *muted}
-                    - string: {text: "{name}", foreground: *muted}
+                string:
+                  text: "󰝦"
+                  font: *font_icon
+                  foreground: *muted
+                  margin: 4
               conditions:
                 state == focused:
-                  list:
-                    spacing: *in_space
-                    items:
-                      - string: {text: "󰝥", font: *font_icon, foreground: *accent}
-                      - string: {text: "{name}", foreground: *fg}
+                  string:
+                    text: "󰝥"
+                    font: *font_icon
+                    foreground: *primary
+                    margin: 4
                 state == urgent:
-                  list:
-                    spacing: *in_space
-                    items:
-                      - string: {text: "󰀨", font: *font_icon, foreground: *danger}
-                      - string: {text: "{name}", foreground: *danger}
+                  string:
+                    text: "󰀨"
+                    font: *font_icon
+                    foreground: *danger
+                    margin: 4
 
     - foreign-toplevel:
         content:
@@ -66,32 +71,44 @@ bar:
             conditions:
               activated:
                 list:
-                  spacing: 12
+                  spacing: 6
                   items:
-                    - string: {text: "│", foreground: *muted}
-                    - string: {text: "󰖯", font: *font_icon, foreground: *info}
-                    - string: {text: "{app-id}", foreground: *fg}
+                    - string: {text: "󰖯", font: *font_icon, foreground: *muted}
+                    - string: {text: "{app-id}", font: *font_main, foreground: *fg}
 
+  # --------------------------------------------------------------------------
+  # ŚRODEK — zegar + data jako jeden centralny blok
+  # --------------------------------------------------------------------------
   center:
     - clock:
         time-format: "%H:%M"
         date-format: "%A, %d %b %Y"
         content:
           list:
-            spacing: *mod_space
+            spacing: 10
             items:
-              - list:
-                  spacing: *in_space
-                  items:
-                    - string: {text: "󰥔", font: *font_icon, foreground: *accent}
-                    - string: {text: "{time}", foreground: *fg}
-              - list:
-                  spacing: *in_space
-                  items:
-                    - string: {text: "󰃭", font: *font_icon, foreground: *accent}
-                    - string: {text: "{date}", foreground: *fg}
+              - string:
+                  text: "{time}"
+                  font: *font_time
+                  foreground: *primary
+              - string:
+                  text: "·"
+                  font: *font_date
+                  foreground: *muted
+              - string:
+                  text: "{date}"
+                  font: *font_date
+                  foreground: *fg
+                  deco:
+                    underline:
+                      size: 1
+                      color: *primary
 
+  # --------------------------------------------------------------------------
+  # PRAWO — telemetryka | audio/sieć/bateria
+  # --------------------------------------------------------------------------
   right:
+
     - cpu:
         poll-interval: 2000
         content:
@@ -103,24 +120,22 @@ bar:
                     list:
                       spacing: *in_space
                       items:
-                        - string: {text: "󰻠", font: *font_icon, foreground: *primary}
-                        - string: {text: "{cpu}%", foreground: *fg}
+                        - string: {text: "CPU", font: *font_small, foreground: *muted}
+                        - string: {text: "{cpu}%", font: *font_small, foreground: *fg}
                   conditions:
                     cpu > 85:
                       list:
                         spacing: *in_space
                         items:
-                          - string: {text: "󰻠", font: *font_icon, foreground: *danger}
-                          - string: {text: "{cpu}%", foreground: *danger}
+                          - string: {text: "CPU", font: *font_small, foreground: *danger}
+                          - string: {text: "{cpu}%", font: *font_small, foreground: *danger}
                     cpu > 60:
                       list:
                         spacing: *in_space
                         items:
-                          - string: {text: "󰻠", font: *font_icon, foreground: *warning}
-                          - string: {text: "{cpu}%", foreground: *fg}
+                          - string: {text: "CPU", font: *font_small, foreground: *warning}
+                          - string: {text: "{cpu}%", font: *font_small, foreground: *fg}
 
-    # POPRAWKA: {percent} nie istnieje — użyj {percent_used} (typ range)
-    # {used:gib} zamiast {used:gb} dla bajtów binarnych
     - mem:
         poll-interval: 3000
         content:
@@ -129,23 +144,22 @@ bar:
               list:
                 spacing: *in_space
                 items:
-                  - string: {text: "󰍛", font: *font_icon, foreground: *primary}
-                  - string: {text: "{used:gib}GB", foreground: *fg}
+                  - string: {text: "RAM", font: *font_small, foreground: *muted}
+                  - string: {text: "{used:gib}G", font: *font_small, foreground: *fg}
             conditions:
               percent_used > 85:
                 list:
                   spacing: *in_space
                   items:
-                    - string: {text: "󰍛", font: *font_icon, foreground: *danger}
-                    - string: {text: "{used:gib}GB", foreground: *danger}
+                    - string: {text: "RAM", font: *font_small, foreground: *danger}
+                    - string: {text: "{used:gib}G", font: *font_small, foreground: *danger}
               percent_used > 70:
                 list:
                   spacing: *in_space
                   items:
-                    - string: {text: "󰍛", font: *font_icon, foreground: *warning}
-                    - string: {text: "{used:gib}GB", foreground: *fg}
+                    - string: {text: "RAM", font: *font_small, foreground: *warning}
+                    - string: {text: "{used:gib}G", font: *font_small, foreground: *fg}
 
-    # POPRAWKA: disk-io zastąpiony skryptem (brak tagu {rx:mb}/{tx:mb})
     - script:
         path: ~/.config/yambar/scripts/disk_io.fish
         poll-interval: 2000
@@ -153,12 +167,12 @@ bar:
           list:
             spacing: *in_space
             items:
-              - string: {text: "󰋊", font: *font_icon, foreground: *primary}
-              - string: {text: "{io}", foreground: *fg}
+              - string: {text: "IO", font: *font_small, foreground: *muted}
+              - string: {text: "{io}", font: *font_small, foreground: *fg}
 
     - label:
         content:
-          string: {text: "│", font: *font_icon, foreground: *muted}
+          string: {text: "│", font: *font_small, foreground: *muted, margin: 2}
 
     - pipewire:
         content:
@@ -171,16 +185,26 @@ bar:
                       list:
                         spacing: *in_space
                         items:
-                          - string: {text: "󰖁", font: *font_icon, foreground: *muted}
-                          - string: {text: "Wyciszenie", foreground: *muted}
+                          - string:
+                              text: "VOL"
+                              font: *font_small
+                              foreground: *muted
+                              on-click: "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+                          - string: {text: "mute", font: *font_small, foreground: *muted}
                     ~muted:
                       list:
                         spacing: *in_space
                         items:
-                          - string: {text: "󰕾", font: *font_icon, foreground: *info}
-                          - string: {text: "{linear_volume}%", foreground: *fg}
+                          - string:
+                              text: "VOL"
+                              font: *font_small
+                              foreground: *primary
+                              on-click:
+                                left: "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+                                wheel-up: "wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%+"
+                                wheel-down: "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
+                          - string: {text: "{linear_volume}%", font: *font_small, foreground: *fg}
 
-    # POPRAWKA: usunięte zduplikowane gałęzie ipv4/default poza state==up
     - network:
         content:
           map:
@@ -192,30 +216,30 @@ bar:
                     list:
                       spacing: *in_space
                       items:
-                        - string: {text: "󰤫", font: *font_icon, foreground: *muted}
-                        - string: {text: "...", foreground: *muted}
+                        - string: {text: "WIFI", font: *font_small, foreground: *muted}
+                        - string: {text: "...", font: *font_small, foreground: *muted}
                   conditions:
                     state == down:
                       list:
                         spacing: *in_space
                         items:
-                          - string: {text: "󰤭", font: *font_icon, foreground: *muted}
-                          - string: {text: "Offline", foreground: *muted}
+                          - string: {text: "WIFI", font: *font_small, foreground: *muted}
+                          - string: {text: "offline", font: *font_small, foreground: *muted}
                     state == up:
                       map:
                         default:
                           list:
                             spacing: *in_space
                             items:
-                              - string: {text: "󰤨", font: *font_icon, foreground: *info}
-                              - string: {text: "{ssid}", foreground: *fg}
+                              - string: {text: "WIFI", font: *font_small, foreground: *primary}
+                              - string: {text: "{ssid}", font: *font_small, foreground: *fg}
                         conditions:
                           ipv4 == "":
                             list:
                               spacing: *in_space
                               items:
-                                - string: {text: "󰤯", font: *font_icon, foreground: *warning}
-                                - string: {text: "Łączenie...", foreground: *warning}
+                                - string: {text: "WIFI", font: *font_small, foreground: *warning}
+                                - string: {text: "łączenie", font: *font_small, foreground: *warning}
 
     - battery:
         name: BAT0
@@ -226,33 +250,33 @@ bar:
               list:
                 spacing: *in_space
                 items:
-                  - string: {text: "󰁹", font: *font_icon, foreground: *muted}
-                  - string: {text: "{capacity}%", foreground: *fg}
+                  - string: {text: "BAT", font: *font_small, foreground: *muted}
+                  - string: {text: "{capacity}%", font: *font_small, foreground: *fg}
             conditions:
               state == charging:
                 list:
                   spacing: *in_space
                   items:
-                    - string: {text: "󰂄", font: *font_icon, foreground: *primary}
-                    - string: {text: "{capacity}%", foreground: *primary}
+                    - string: {text: "BAT", font: *font_small, foreground: *primary}
+                    - string: {text: "{capacity}%", font: *font_small, foreground: *primary}
               state == discharging:
                 map:
                   default:
                     list:
                       spacing: *in_space
                       items:
-                        - string: {text: "󰁹", font: *font_icon, foreground: *info}
-                        - string: {text: "{capacity}%", foreground: *fg}
+                        - string: {text: "BAT", font: *font_small, foreground: *muted}
+                        - string: {text: "{capacity}%", font: *font_small, foreground: *fg}
                   conditions:
                     capacity < 15:
                       list:
                         spacing: *in_space
                         items:
-                          - string: {text: "󰂃", font: *font_icon, foreground: *danger}
-                          - string: {text: "{capacity}%", foreground: *danger}
+                          - string: {text: "BAT", font: *font_small, foreground: *danger}
+                          - string: {text: "{capacity}%", font: *font_small, foreground: *danger}
                     capacity < 30:
                       list:
                         spacing: *in_space
                         items:
-                          - string: {text: "󰁻", font: *font_icon, foreground: *warning}
-                          - string: {text: "{capacity}%", foreground: *fg}
+                          - string: {text: "BAT", font: *font_small, foreground: *warning}
+                          - string: {text: "{capacity}%", font: *font_small, foreground: *warning}
